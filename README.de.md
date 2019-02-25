@@ -18,7 +18,7 @@ Nachfolgende genannte bewährte Verfahren beziehen sich auf alle Testverfahren u
   * übernimm die Kontrolle deiner Anwendung: Setze den Login-Status direkt beim Testen
 * Einzige Ausnahme: Du testest den Login-Prozess direkt
 
-### 2.2 Selektoren
+### 2.2 Verwenden von Selektoren
 
 * Verwende keine Design-gebundenen Selektoren (CSS, classes, Tags, etc.)
 ** diese können sich ändern und brechen damit den Test
@@ -36,6 +36,13 @@ Beispiel:
 * OK (*nur wenn Textänderungen den Test brechen sollen*): `cy.contains('Save').click()`
   * z.B. Text ändert sich von "Save" zu "Cancel"
 * Optimal (*eindeutig ersichtlich, dass dieses Attribut zum Testen verwendet wird*): `cy.get('[data-cy=save]').click()`
+
+### 2.3 Besuch von externen Quellen (Seiten, APIs, etc.)
+
+* Interagiere mit keinen Websites oder Servern, die du nicht selbst kontrollierst
+* Besser: verwende gar keine externen Quellen
+* Teste nur, was Du auch kontrollieren kannst
+* Versuche zu vermeiden, dass du einen Server eines Drittanbieters benötigst
 
 ## A. Weitere Anleitungen
 
