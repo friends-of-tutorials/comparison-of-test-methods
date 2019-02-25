@@ -18,7 +18,7 @@ Nachfolgende genannte bewährte Verfahren beziehen sich auf alle Testverfahren u
   * übernimm die Kontrolle deiner Anwendung: Setze den Login-Status direkt beim Testen
 * Einzige Ausnahme: Du testest den Login-Prozess direkt
 
-### Selektoren
+### 2.2 Selektoren
 
 * Verwende keine Design-gebundenen Selektoren (CSS, classes, Tags, etc.)
 ** diese können sich ändern und brechen damit den Test
