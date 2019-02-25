@@ -89,13 +89,22 @@ Beispiele:
 
 Todo..
 
-### 2.7. Web Server
+### 2.7 Web Server
 
 * Webserver (oder andere notwendige Dienste) sollten nicht innerhalb von Tests erst gestartet werden müssen
 * Besser: Die Testumgebung sind schon vor dem Teststart vorhanden (andernfalls wird der Test gar nicht erst gestartet)
 * Gestartete Dienste innerhalb des Tests belegen unnötig Ressourcen des Tests selbst
 * Die Unabhängigkeit von Tests ist durchaus nicht gewährleistet (oder jeder Test startet seinen eigenen Dienst und beendet ihn - zu komplex)
 * Parallele Tests sind nicht möglich (Eventuelle Portkonflikte, etc.)
+
+### 2.8 Verwenden von URLs
+
+* Vermeide die Verwendung von festen kompletten Adressen wie `https://www.address.com/login`
+* Verwende relative Adressen wie `/login`
+* Tests auf unterschiedlichen Umgebungen wird damit ermöglicht (Browser, Kommandozeile, etc.)
+* Verwende die allgemeine, umgebungsbasierte Konfiguration deines Frameworks um eine BaseURL zu hinterlegen
+* Tests sollten unabhängig der verwendeten URL sein (`http://localhost`, `https://www.address.com`, etc.)
+* Unabhängig von z.B. verwendeten Ports (`http://localhost`, `http://localhost:8080`, etc.)
 
 ## 3. Best Practices (Cypress)
 
