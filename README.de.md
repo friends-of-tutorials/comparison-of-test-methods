@@ -51,6 +51,20 @@ Eventuelle Ausnahmen:
 * Testen der "Passwort vergessen" Funktion
 * etc.
 
+Hintergrund:
+
+* Testen von Drittdiensten ist unglaublich zeitaufwendig und verlangsamt Deine Tests
+* Die Website von Drittanbietern kann ihren Inhalt ändern oder aktualisieren (außerhalb deiner Kontrolle)
+* Die Drittanbieter-Website kann Probleme haben (500er Fehler, etc.)
+* Der Drittanbieter kann erkennen, dass du über ein Skript testest und Dich blockieren.
+* Die Drittanbieter-Website kann AB-Kampagnen durchführen (Unterschiedliche Erwartungswerte)
+
+Übersetzt mit www.DeepL.com/Translator
+
+## 3. Best Practices (Cypress)
+
+Todo..
+
 ## A. Weitere Anleitungen
 
 * Todo..
