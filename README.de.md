@@ -2,10 +2,14 @@
 
 ## 1. Übersicht
 
-### 1.1 Frameworks
+### 1.1 E2E Testing Frameworks
 
 * [Cypress](https://www.cypress.io)
 * [Selenium WebDriver](https://www.seleniumhq.org/projects/webdriver)
+
+## 2. Best Practices
+
+Nachfolgende genannte bewährte Verfahren beziehen sich auf alle Testverfahren und sind frameworkunabhängig. Genannte Codebeispiele beziehen sich auf auf das Cypress Framework.
 
 ## A. Weitere Anleitungen
 
