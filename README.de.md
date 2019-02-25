@@ -30,6 +30,13 @@ Beispiel:
 
 `<button id="main-button" class="btn btn-save" data-cy="save">Save</button>`
 
+* Niemals (*kein Kontext*): `cy.get('button').click()`
+* Auch nicht (*kann sich bei Designänderungen ändern*): `cy.get('.btn.btn-save').click()`
+* Besser (*nicht eindeutig ersichtlich, dass diese ID zum testen verwendet wird*): `cy.get('#main-button').click()`
+* OK (*nur wenn Textänderungen den Test brechen sollen*): `cy.contains('Save').click()`
+  * z.B. Text ändert sich von "Save" zu "Cancel"
+* Optimal (*eindeutig ersichtlich, dass dieses Attribut zum Testen verwendet wird*): `cy.get('[data-cy=save]').click()`
+
 ## A. Weitere Anleitungen
 
 * Todo..
