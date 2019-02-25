@@ -66,6 +66,37 @@ Tipps und Tricks für den Login-Prozess:
 * Wenn Du einen echten Token benötigst, kann dieser unter Umständen auch anders als über den Login erhalten werden (via API, fester Programmier-Token, etc.)
 * etc.
 
+### 2.4 Testabhängigkeiten
+
+* Vermeide die Durchführung von Tests, welche auf dem Stand früherer Tests basieren
+* Tests sollten immer unabhängig voneinander ausgeführt werden können und trotzdem erfolgreich sein
+* Lagere geteilten Testcode aus, welcher von verschiedenen Tests benötigt wird (Initialisierungen von Formularen, etc.)
+
+### 2.5 Komplexität von Tests
+
+* Einzelne Tests sollten nicht zu komplex, aber auch nicht zu einfach sein
+* Ein einzelner Test welcher die Webseite komplett testet ist genauso ineffektiv, wie viele Test, welche sich nur auf einen einzelnen Punkt konzentrieren (Seitenelement enthält den Wert xy, etc.)
+* Fasse sinnvolle Test-Elemente zu einem einzelnen Test zusammen
+* Zuviele Tests mit nur einem einzelnen Testelement sind nicht performant
+* Zu komplexe Tests schwierig zu warten
+
+### 2.6 Unnötiges Warten
+
+* Vermeide zeitabhängige Tests (z.B. bis Element auf Seite zu sehen ist)
+* Meist gibt es einen einacheren Weg solche Dinge zu testen (eventuell sind sie gar nicht notwendig oder sogar falsch)
+
+Beispiele:
+
+Todo..
+
+### 2.7. Web Server
+
+* Webserver (oder andere notwendige Dienste) sollten nicht innerhalb von Tests erst gestartet werden müssen
+* Besser: Die Testumgebung sind schon vor dem Teststart vorhanden (andernfalls wird der Test gar nicht erst gestartet)
+* Gestartete Dienste innerhalb des Tests belegen unnötig Ressourcen des Tests selbst
+* Die Unabhängigkeit von Tests ist durchaus nicht gewährleistet (oder jeder Test startet seinen eigenen Dienst und beendet ihn - zu komplex)
+* Parallele Tests sind nicht möglich (Eventuelle Portkonflikte, etc.)
+
 ## 3. Best Practices (Cypress)
 
 Todo..
