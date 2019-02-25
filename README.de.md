@@ -108,6 +108,12 @@ Todo..
 
 ## 3. Best Practices (Cypress)
 
+### 3.1 Zuweisen von Rückgabewerten
+
+Todo..
+
+### 3.2 Verwendung von "after" oder "afterEach" Hooks
+
 Todo..
 
 ## A. Weitere Anleitungen
