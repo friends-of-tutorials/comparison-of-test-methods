@@ -9,7 +9,14 @@
 
 ## 2. Best Practices
 
-Nachfolgende genannte bewährte Verfahren beziehen sich auf alle Testverfahren und sind frameworkunabhängig. Genannte Codebeispiele beziehen sich auf auf das Cypress Framework.
+Nachfolgende genannte bewährte Verfahren beziehen sich auf alle Testverfahren und sind Framework- und Tool-unabhängig. Genannte Codebeispiele beziehen sich auf auf das Cypress Framework.
+
+### 2.1 Login
+
+* Logge dich nicht über die GUI ein (langsam und durchaus fehleranfällig)
+* Logge dich programmgesteuert in deine Anwendung ein
+  * übernimm die Kontrolle deiner Anwendung: Setze den Login-Status direkt beim Testen
+* Einzige Ausnahme: Du testest den Login-Prozess direkt
 
 ## A. Weitere Anleitungen
 
