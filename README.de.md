@@ -18,6 +18,18 @@ Nachfolgende genannte bewährte Verfahren beziehen sich auf alle Testverfahren u
   * übernimm die Kontrolle deiner Anwendung: Setze den Login-Status direkt beim Testen
 * Einzige Ausnahme: Du testest den Login-Prozess direkt
 
+### Selektoren
+
+* Verwende keine Design-gebundenen Selektoren (CSS, classes, Tags, etc.)
+** diese können sich ändern und brechen damit den Test
+* Verwende Design-ungebundene Selektoren (data Attribute, Text, etc.)
+** Diese werden nur für das Testing verwendet
+** Text-Tests sind wichtig, wenn der Test abhängig vom Text ist (Speichern vs. Abbrechen)
+
+Beispiel:
+
+`<button id="main-button" class="btn btn-save" data-cy="save">Save</button>`
+
 ## A. Weitere Anleitungen
 
 * Todo..
