@@ -55,11 +55,10 @@ Hintergrund:
 
 * Testen von Drittdiensten ist unglaublich zeitaufwendig und verlangsamt Deine Tests
 * Die Website von Drittanbietern kann ihren Inhalt ändern oder aktualisieren (außerhalb deiner Kontrolle)
-* Die Drittanbieter-Website kann Probleme haben (500er Fehler, etc.)
-* Der Drittanbieter kann erkennen, dass du über ein Skript testest und Dich blockieren.
+* Externe Quellen können Probleme haben (500er Fehler, etc.)
+* Der Drittanbieter kann erkennen, dass du über ein Skript testest und Dich blockieren
 * Die Drittanbieter-Website kann AB-Kampagnen durchführen (Unterschiedliche Erwartungswerte)
-
-Übersetzt mit www.DeepL.com/Translator
+* Externe Quellen benötigen eine Internet Verbindung (eine fehlende Verbindung bricht den Test)
 
 ## 3. Best Practices (Cypress)
 
