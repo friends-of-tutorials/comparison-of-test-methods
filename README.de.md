@@ -44,6 +44,13 @@ Beispiel:
 * Teste nur, was Du auch kontrollieren kannst
 * Versuche zu vermeiden, dass du einen Server eines Drittanbieters benötigst
 
+Eventuelle Ausnahmen:
+
+* Testen einer Anmeldung, welche einen anderen Anbieter nutzt
+* Datenänderungen zu einem Dritt-Dienst müssen überprüft werden
+* Testen der "Passwort vergessen" Funktion
+* etc.
+
 ## A. Weitere Anleitungen
 
 * Todo..
