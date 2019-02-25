@@ -60,6 +60,12 @@ Hintergrund:
 * Die Drittanbieter-Website kann AB-Kampagnen durchführen (Unterschiedliche Erwartungswerte)
 * Externe Quellen benötigen eine Internet Verbindung (eine fehlende Verbindung bricht den Test)
 
+Tipps und Tricks für den Login-Prozess:
+
+* Lokaler "Fake-Login": Erwartete Login-Rückgabewert kommt aus deiner Anwendung selbst und wird nicht an den Drittdienst gesendet (wenn möglich)
+* Wenn Du einen echten Token benötigst, kann dieser unter Umständen auch anders als über den Login erhalten werden (via API, fester Programmier-Token, etc.)
+* etc.
+
 ## 3. Best Practices (Cypress)
 
 Todo..
