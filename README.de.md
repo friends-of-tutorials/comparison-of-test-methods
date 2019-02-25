@@ -43,7 +43,7 @@ Beispiel:
 
 ## B. Quellen
 
-* Todo..
+* [Best practices - Cypress](https://docs.cypress.io/guides/references/best-practices.html)
 
 ## C. Tools
 
