@@ -92,9 +92,9 @@ Todo..
 ### 2.7 Web Server
 
 * Webserver (oder andere notwendige Dienste) sollten nicht innerhalb von Tests erst gestartet werden müssen
-* Besser: Die Testumgebung sind schon vor dem Teststart vorhanden (andernfalls wird der Test gar nicht erst gestartet)
-* Gestartete Dienste innerhalb des Tests belegen unnötig Ressourcen des Tests selbst
-* Die Unabhängigkeit von Tests ist durchaus nicht gewährleistet (oder jeder Test startet seinen eigenen Dienst und beendet ihn - zu komplex)
+* Besser: Die benötigten Dienste sind schon vor dem Teststart vorhanden (andernfalls wird der Test gar nicht erst gestartet)
+* Gestartete Dienste innerhalb des Tests belegen unnötig Ressourcen
+* Die Unabhängigkeit von Tests ist durchaus nicht gewährleistet (oder jeder Test müsste seinen eigenen Dienst starten)
 * Parallele Tests sind nicht möglich (Eventuelle Portkonflikte, etc.)
 
 ### 2.8 Verwenden von URLs
