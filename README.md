@@ -8,7 +8,10 @@ A list of best practices for end-to-end testing. You can read the german version
 
 ## B. Sources
 
-* Todo..
+* [Best practices - Cypress](https://docs.cypress.io/guides/references/best-practices.html)
+* [A glimpse into the test jungle (German)](https://entwickler.de/online/durchblick-im-test-dschungel-unterschiede-zwischen-unit-integration-und-funktionstesting-149903.html)
+* [Functional Testing Vs Non-Functional Testing](https://www.softwaretestingclass.com/functional-testing-vs-non-functional-testing)
+* [Unit tests vs Functional tests](https://stackoverflow.com/questions/2741832/unit-tests-vs-functional-tests)
 
 ## C. Authors
 
