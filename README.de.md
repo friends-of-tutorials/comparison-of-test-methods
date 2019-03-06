@@ -4,9 +4,9 @@
 
 ### 1.1 Testverfahren im Vergleich
 
-Es gibt unzählige Arten von Testverfahren. Viele machen generell ähnliche Dinge bzw. beschreiben faktisch die gleichen Testmethoden (z.B. Funktionentests, E2E-Tests und Browsertests). Nachfolgend Testmethoden, mit welchen man sich theoretisch auseinandersetzen könnte:
+Es gibt unzählige Arten von Testverfahren. Viele machen generell ähnliche Dinge bzw. beschreiben faktisch die gleichen Testmethoden (z.B. Funktionentests, E2E-Tests und Browsertests). Nachfolgend Testmethoden aus den [Softwaretests](https://de.wikipedia.org/wiki/Softwaretest), mit welchen man sich theoretisch auseinandersetzen könnte:
 
-#### 1.1.1 [Softwaretests](https://de.wikipedia.org/wiki/Softwaretest)
+#### 1.1.1 Funktionentests
 
 * [Akzeptanztest](https://de.wikipedia.org/wiki/Akzeptanztest_(Softwaretechnik)) oder auch UAT
 * [API Tests](https://en.wikipedia.org/wiki/API_testing) oder auch API testing
@@ -17,6 +17,32 @@ Es gibt unzählige Arten von Testverfahren. Viele machen generell ähnliche Ding
 * [Regression Testing](https://de.wikipedia.org/wiki/Regressionstest) oder auch regression testing
 * [Sanity testing](https://de.wikipedia.org/wiki/Sanity_Check)
 * [Systemtests](https://en.wikipedia.org/wiki/System_testing) oder auch system testing
+
+#### 1.1.2 Systemtests
+
+Availability Testing
+Baseline testing
+Compatibility testing
+Compliance testing
+Configuration Testing
+Documentation testing
+Endurance testing
+Ergonomics Testing
+Interoperability Testing
+Installation Testing
+[Lasttest](https://de.wikipedia.org/wiki/Lasttest_(Computer)) oder auch load testing
+Localization testing and Internationalization testing
+Maintainability Testing
+Operational Readiness Testing
+Performance testing
+Recovery testing
+Reliability Testing
+Resilience testing
+Security testing
+Scalability testing
+Stress testing
+Usability testing
+Volume testing
 
 ## 2. Übersicht
 
