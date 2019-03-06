@@ -22,6 +22,7 @@ Es gibt unzählige Arten von Testverfahren. Viele machen generell ähnliche Ding
 
 Die Namen vieler nicht funktionaler Tests werden häufig austauschbar verwendet und überlappen oft stark.
 
+* [A/B Tests](https://en.wikipedia.org/wiki/A/B_testing)
 * Availability testing
 * Baseline testing
 * Compatibility testing
