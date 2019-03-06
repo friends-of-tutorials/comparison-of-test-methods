@@ -1,24 +1,42 @@
 # E2E Testing - Best practices
 
-## 1. Übersicht
+## 1. Einleitend
 
-### 1.1 E2E Testing Frameworks
+### 1.1 Testverfahren im Vergleich
+
+Es gibt unzählige Arten von Testverfahren. Viele machen generell ähnliche Dinge bzw. beschreiben faktisch die gleichen Testmethoden (z.B. Funktionentests, E2E-Tests und Browsertests). Nachfolgend Testmethoden, mit welchen man sich theoretisch auseinandersetzen könnte:
+
+#### 1.1.1 [Softwaretests](https://de.wikipedia.org/wiki/Softwaretest)
+
+* [Akzeptanztest](https://de.wikipedia.org/wiki/Akzeptanztest_(Softwaretechnik)) oder auch UAT
+* [API Tests](https://en.wikipedia.org/wiki/API_testing) oder auch API testing
+* [Integrationstest](https://de.wikipedia.org/wiki/Integrationstest) oder auch integration testing
+* Interface Testing
+* [Modultests](https://de.wikipedia.org/wiki/Modultest) oder auch unit testing
+* [Rauchtest](https://de.wikipedia.org/wiki/Smoke_testing) oder auch Smoke testing
+* [Regression Testing](https://de.wikipedia.org/wiki/Regressionstest) oder auch regression testing
+* [Sanity testing](https://de.wikipedia.org/wiki/Sanity_Check)
+* [Systemtests](https://en.wikipedia.org/wiki/System_testing) oder auch system testing
+
+## 2. Übersicht
+
+### 2.1 E2E Testing Frameworks
 
 * [Cypress](https://www.cypress.io)
 * [Selenium WebDriver](https://www.seleniumhq.org/projects/webdriver)
 
-## 2. Best Practices
+## 3. Best Practices
 
 Nachfolgende genannte bewährte Verfahren beziehen sich auf alle Testverfahren und sind Framework- und Tool-unabhängig. Genannte Codebeispiele beziehen sich auf auf das Cypress Framework.
 
-### 2.1 Login
+### 3.1 Login
 
 * Logge dich nicht über die GUI ein (langsam und durchaus fehleranfällig)
 * Logge dich programmgesteuert in deine Anwendung ein
   * übernimm die Kontrolle deiner Anwendung: Setze den Login-Status direkt beim Testen
 * Einzige Ausnahme: Du testest den Login-Prozess direkt
 
-### 2.2 Verwenden von Selektoren
+### 3.2 Verwenden von Selektoren
 
 * Verwende keine Design-gebundenen Selektoren (CSS, classes, Tags, etc.)
 ** diese können sich ändern und brechen damit den Test
@@ -37,7 +55,7 @@ Beispiel:
   * z.B. Text ändert sich von "Save" zu "Cancel"
 * Optimal (*eindeutig ersichtlich, dass dieses Attribut zum Testen verwendet wird*): `cy.get('[data-cy=save]').click()`
 
-### 2.3 Besuch von externen Quellen (Seiten, APIs, etc.)
+### 3.3 Besuch von externen Quellen (Seiten, APIs, etc.)
 
 * Interagiere mit keinen Websites oder Servern, die du nicht selbst kontrollierst
 * Besser: verwende gar keine externen Quellen
@@ -66,13 +84,13 @@ Tipps und Tricks für den Login-Prozess:
 * Wenn Du einen echten Token benötigst, kann dieser unter Umständen auch anders als über den Login erhalten werden (via API, fester Programmier-Token, etc.)
 * etc.
 
-### 2.4 Testabhängigkeiten
+### 3.4 Testabhängigkeiten
 
 * Vermeide die Durchführung von Tests, welche auf dem Stand früherer Tests basieren
 * Tests sollten immer unabhängig voneinander ausgeführt werden können und trotzdem erfolgreich sein
 * Lagere geteilten Testcode aus, welcher von verschiedenen Tests benötigt wird (Initialisierungen von Formularen, etc.)
 
-### 2.5 Komplexität von Tests
+### 3.5 Komplexität von Tests
 
 * Einzelne Tests sollten nicht zu komplex, aber auch nicht zu einfach sein
 * Ein einzelner Test welcher die Webseite komplett testet ist genauso ineffektiv, wie viele Test, welche sich nur auf einen einzelnen Punkt konzentrieren (Seitenelement enthält den Wert xy, etc.)
@@ -80,7 +98,7 @@ Tipps und Tricks für den Login-Prozess:
 * Zuviele Tests mit nur einem einzelnen Testelement sind nicht performant
 * Zu komplexe Tests schwierig zu warten
 
-### 2.6 Unnötiges Warten
+### 3.6 Unnötiges Warten
 
 * Vermeide zeitabhängige Tests (z.B. bis Element auf Seite zu sehen ist)
 * Meist gibt es einen einacheren Weg solche Dinge zu testen (eventuell sind sie gar nicht notwendig oder sogar falsch)
@@ -89,7 +107,7 @@ Beispiele:
 
 Todo..
 
-### 2.7 Web Server
+### 3.7 Web Server
 
 * Webserver (oder andere notwendige Dienste) sollten nicht innerhalb von Tests erst gestartet werden müssen
 * Besser: Die benötigten Dienste sind schon vor dem Teststart vorhanden (andernfalls wird der Test gar nicht erst gestartet)
@@ -97,7 +115,7 @@ Todo..
 * Die Unabhängigkeit von Tests ist durchaus nicht gewährleistet (oder jeder Test müsste seinen eigenen Dienst starten)
 * Parallele Tests sind nicht möglich (Eventuelle Portkonflikte, etc.)
 
-### 2.8 Verwenden von URLs
+### 3.8 Verwenden von URLs
 
 * Vermeide die Verwendung von festen kompletten Adressen wie `https://www.address.com/login`
 * Verwende relative Adressen wie `/login`
@@ -106,13 +124,13 @@ Todo..
 * Tests sollten unabhängig der verwendeten URL sein (`http://localhost`, `https://www.address.com`, etc.)
 * Unabhängig von z.B. verwendeten Ports (`http://localhost`, `http://localhost:8080`, etc.)
 
-## 3. Best Practices (Cypress)
+## 4. Best Practices (Cypress)
 
-### 3.1 Zuweisen von Rückgabewerten
+### 4.1 Zuweisen von Rückgabewerten
 
 Todo..
 
-### 3.2 Verwendung von "after" oder "afterEach" Hooks
+### 4.2 Verwendung von "after" oder "afterEach" Hooks
 
 Todo..
 
