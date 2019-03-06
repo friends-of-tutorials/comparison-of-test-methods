@@ -34,7 +34,7 @@ Es gibt unzählige Arten von Testverfahren. Viele machen generell ähnliche Ding
 * Localization testing and Internationalization testing
 * Maintainability Testing
 * Operational Readiness Testing
-* [Penetrationstest_](https://de.wikipedia.org/wiki/Penetrationstest_(Informatik)) oder auch _pentest_
+* [Penetrationstest](https://de.wikipedia.org/wiki/Penetrationstest_(Informatik)) oder auch _pentest_
 * Performance testing
 * Recovery testing
 * Reliability Testing
