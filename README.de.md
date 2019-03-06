@@ -57,8 +57,8 @@ Oftmals ist es nicht notwendig (vor allem in der [Webentwicklung](https://de.wik
 |------------------|-----------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Kurzbeschreibung | Kleine Code-Teile wie zum Beispiel individuelle Funktionen werden getestet. | Sind Unit-Tests in Systemumgebungen bzw. in Abhängigkeiten mit dem Systems (Datenbank, Dateisystem, Netzwerk, anderen Unit-Tests, etc.). | Prüft, ob eine Software aus Sicht des Benutzers wie beabsichtigt funktioniert. |
 | Eigenschaften | - unabhängig vom System (DB, Dateisystem, Netzwerk, etc.)<br>- meist auf Funktionsebene<br>- Definition Eingang und erwarteter Ausgang | Integration Tests helfen dabei, zu überprüfen, ob und wie verschiedene Teile einer Anwendung mit dem System zusammenarbeiten (DB, Dateisystem, Netzwerk, andere Module, etc.) | - Automatisierte Browsersimulation<br>- Überprüfen von User-Aktionen<br>- Einbeziehen von Umgebungseigenschaften (Ausführen von Javascript, etc.)<br>- Durch Realisierung von User-Aktionen, Ausführung teilweise lang: Sparsames Einsetzen!<br>- Login, Warenkorb, Formulare, etc.<br>- Sofern möglich: Auf Unit- oder Integration-Tests setzen |
-| Geschrieben von | Entwicklern | Entwicklern | Entwicklern, Usern, Kunde |
-| Getestet von | Entwicklern | Entwicklern | Usern, Kunde |
+| Geschrieben von | Entwicklern | Entwicklern | Entwicklern, Usern, Kunden |
+| Getestet von | Entwicklern | Entwicklern | Usern, Kunden |
 
 ## 2. Übersicht
 
