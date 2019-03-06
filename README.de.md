@@ -8,41 +8,42 @@ Es gibt unzählige Arten von Testverfahren. Viele machen generell ähnliche Ding
 
 #### 1.1.1 Funktionentests
 
-* [Akzeptanztest](https://de.wikipedia.org/wiki/Akzeptanztest_(Softwaretechnik)) oder auch UAT
-* [API Tests](https://en.wikipedia.org/wiki/API_testing) oder auch API testing
-* [Integrationstest](https://de.wikipedia.org/wiki/Integrationstest) oder auch integration testing
+* [Akzeptanztest](https://de.wikipedia.org/wiki/Akzeptanztest_(Softwaretechnik)) oder auch _UAT_
+* [API Tests](https://en.wikipedia.org/wiki/API_testing) oder auch _API testing_
+* [Integrationstest](https://de.wikipedia.org/wiki/Integrationstest) oder auch _integration testing_
 * Interface Testing
-* [Modultests](https://de.wikipedia.org/wiki/Modultest) oder auch unit testing
-* [Rauchtest](https://de.wikipedia.org/wiki/Smoke_testing) oder auch Smoke testing
-* [Regression Testing](https://de.wikipedia.org/wiki/Regressionstest) oder auch regression testing
+* [Modultests](https://de.wikipedia.org/wiki/Modultest) oder auch _unit testing_
+* [Rauchtest](https://de.wikipedia.org/wiki/Smoke_testing) oder auch _smoke testing_
+* [Regression Testing](https://de.wikipedia.org/wiki/Regressionstest) oder auch _regression testing_
 * [Sanity testing](https://de.wikipedia.org/wiki/Sanity_Check)
 * [Systemtests](https://en.wikipedia.org/wiki/System_testing) oder auch system testing
 
-#### 1.1.2 Systemtests
+#### 1.1.2 Fortführende Tests (Systembestandteile)
 
-Availability Testing
-Baseline testing
-Compatibility testing
-Compliance testing
-Configuration Testing
-Documentation testing
-Endurance testing
-Ergonomics Testing
-Interoperability Testing
-Installation Testing
-[Lasttest](https://de.wikipedia.org/wiki/Lasttest_(Computer)) oder auch load testing
-Localization testing and Internationalization testing
-Maintainability Testing
-Operational Readiness Testing
-Performance testing
-Recovery testing
-Reliability Testing
-Resilience testing
-Security testing
-Scalability testing
-Stress testing
-Usability testing
-Volume testing
+* Availability Testing
+* Baseline testing
+* Compatibility testing
+* Compliance testing
+* Configuration Testing
+* Documentation testing
+* Endurance testing
+* Ergonomics Testing
+* Interoperability Testing
+* Installation Testing
+* [Lasttest](https://de.wikipedia.org/wiki/Lasttest_(Computer)) oder auch _load testing_
+* Localization testing and Internationalization testing
+* Maintainability Testing
+* Operational Readiness Testing
+* [Penetrationstest_](https://de.wikipedia.org/wiki/Penetrationstest_(Informatik)) oder auch _pentest_
+* Performance testing
+* Recovery testing
+* Reliability Testing
+* Resilience testing
+* Security testing
+* Scalability testing
+* Stress testing
+* Usability testing
+* Volume testing
 
 ## 2. Übersicht
 
