@@ -64,7 +64,7 @@ Nachfolgend und beziehend auf das Thema dieses Tutorials konzentrieren wir uns f
 
 ### 1.3 Wichtig!
 
-* Akzeptanztest sparsam einsetzen, da diese bedingt durch Simulation von User-Aktionen eine gewisse Zeit benötigen
+* Akzeptanztest sparsam einsetzen, da diese bedingt durch die Simulation von User-Aktionen eine gewisse Zeit benötigen
 * Wenn möglich detailierte Tests durch Unit- und Integrationstests abdecken!
 * Nur die entscheidenden Funktionen testen
 ** Loginfunktion
