@@ -60,7 +60,17 @@ Oftmals ist es nicht notwendig (vor allem in der [Webentwicklung](https://de.wik
 | Geschrieben von | Entwicklern | Entwicklern | Entwicklern, Usern, Kunden |
 | Getestet von | Entwicklern | Entwicklern | Usern, Kunden |
 
-Nachfolgend und beziehend auf das Thema dieses Tutorials beziehen wir uns nur auf die Tests welche die größte Schnittmenge abdeckt: den Akzeptanztests respektive den E2E-Tests ;).
+Nachfolgend und beziehend auf das Thema dieses Tutorials beziehen wir uns nur auf die Tests welche die größte Schnittmenge abdeckt: den Akzeptanztests respektive den E2E-Tests ;). Akzeptanztest erhöhen das Vertrauen in der Verwendung der Software zwischen dem Kunden und den Entwickler.
+
+### 1.3 Wichtig!
+
+* Akzeptanztest sparsam einsetzen, da diese bedingt durch Simulation von User-Aktionen eine gewisse Zeit benötigen
+* Wenn möglich detailierte Tests durch Unit- und Integrationstests abdecken!
+
+### 1.4 Vorraussetzungen, Anforderungen
+
+* visuelle Darstellung der Tests (aus Kundensicht)
+* Kommandozeilenorientiert (automatische Tests vor dem Deployment)
 
 ## 2. Übersicht
 
