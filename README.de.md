@@ -6,7 +6,7 @@
 
 Es gibt unzählige Arten von Testverfahren. Viele machen generell ähnliche Dinge bzw. beschreiben faktisch die gleichen Testmethoden (z.B. Funktionentests, E2E-Tests und Browsertests). Nachfolgend Testmethoden aus den [Softwaretests](https://de.wikipedia.org/wiki/Softwaretest), mit welchen man sich theoretisch auseinandersetzen könnte:
 
-#### 1.1.1 Funktionentests
+#### 1.1.1 Funktionentests (funktionale Anforderungen)
 
 * [Akzeptanztest](https://de.wikipedia.org/wiki/Akzeptanztest_(Softwaretechnik)) oder auch _UAT_
 * [API Tests](https://en.wikipedia.org/wiki/API_testing) oder auch _API testing_
@@ -18,32 +18,35 @@ Es gibt unzählige Arten von Testverfahren. Viele machen generell ähnliche Ding
 * [Sanity testing](https://de.wikipedia.org/wiki/Sanity_Check)
 * [Systemtests](https://en.wikipedia.org/wiki/System_testing) oder auch system testing
 
-#### 1.1.2 Fortführende Tests (Systembestandteile)
+#### 1.1.2 [Nichtfunktionale Tests](https://en.wikipedia.org/wiki/Non-functional_testing) (Funktionsweise eines Systems)
 
-* Availability Testing
+Die Namen vieler nicht funktionaler Tests werden häufig austauschbar verwendet und überlappen oft stark.
+
+* Availability testing
 * Baseline testing
 * Compatibility testing
 * Compliance testing
-* Configuration Testing
-* Documentation testing
-* Endurance testing
-* Ergonomics Testing
-* Interoperability Testing
-* Installation Testing
+* Configuration testing
+* [Conformance testing](https://en.wikipedia.org/wiki/Conformance_testing)
+* [Documentation testing](https://en.wikipedia.org/wiki/Documentation_testing)
+* [Endurance testing](https://en.wikipedia.org/wiki/Soak_testing) oder auch _soak testing_
+* Ergonomics testing
+* Interoperability testing
+* Installation testing
 * [Lasttest](https://de.wikipedia.org/wiki/Lasttest_(Computer)) oder auch _load testing_
 * Localization testing and Internationalization testing
-* Maintainability Testing
-* Operational Readiness Testing
+* Maintainability testing
+* Operational readiness testing
 * [Penetrationstest](https://de.wikipedia.org/wiki/Penetrationstest_(Informatik)) oder auch _pentest_
-* Performance testing
+* [Performance testing](https://en.wikipedia.org/wiki/Software_performance_testing)
 * Recovery testing
-* Reliability Testing
+* Reliability testing
 * Resilience testing
 * [Security testing](https://en.wikipedia.org/wiki/Security_testing)
-* Scalability testing
-* Stress testing
-* Usability testing
-* Volume testing
+* [Scalability testing](https://en.wikipedia.org/wiki/Scalability_testing)
+* [Stresstest](https://de.wikipedia.org/wiki/Stresstest) oder auch _stress testing_
+* [Usability-Test](https://de.wikipedia.org/wiki/Usability-Test) oder auch _usability testing_
+* [Volume testing](https://en.wikipedia.org/wiki/Volume_testing)
 
 ## 2. Übersicht
 
