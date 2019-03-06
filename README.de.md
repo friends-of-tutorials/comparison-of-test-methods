@@ -60,6 +60,8 @@ Oftmals ist es nicht notwendig (vor allem in der [Webentwicklung](https://de.wik
 | Geschrieben von | Entwicklern | Entwicklern | Entwicklern, Usern, Kunden |
 | Getestet von | Entwicklern | Entwicklern | Usern, Kunden |
 
+Nachfolgend und beziehend auf das Thema dieses Tutorials beziehen wir uns nur auf die Tests welche die größte Schnittmenge abdeckt: den Akzeptanztests respektive den E2E-Tests ;).
+
 ## 2. Übersicht
 
 ### 2.1 E2E Testing Frameworks
