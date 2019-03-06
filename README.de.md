@@ -1,6 +1,6 @@
 # E2E Testing - Best practices
 
-## 1. Einleitend
+## 1. Einleitung
 
 ### 1.1 Testverfahren im Vergleich
 
