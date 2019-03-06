@@ -66,6 +66,7 @@ Nachfolgend und beziehend auf das Thema dieses Tutorials konzentrieren wir uns f
 
 * Akzeptanztest sparsam einsetzen, da diese bedingt durch die Simulation von User-Aktionen eine gewisse Zeit benötigen
 * Wenn möglich detailierte Tests durch Unit- und Integrationstests abdecken!
+** Lade Datensatz xy, erwarte Inhalt xy
 * Nur die entscheidenden Funktionen testen
 ** Loginfunktion
 ** Warenkorbfunktion
