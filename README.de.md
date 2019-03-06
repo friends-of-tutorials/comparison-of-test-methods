@@ -49,6 +49,16 @@ Die Namen vieler nicht funktionaler Tests werden häufig austauschbar verwendet 
 * [Usability-Test](https://de.wikipedia.org/wiki/Usability-Test) oder auch _usability testing_
 * [Volume testing](https://en.wikipedia.org/wiki/Volume_testing)
 
+### 1.2. Konzentration auf das Wesentliche
+
+Oftmals ist es nicht notwendig (vor allem in der [Webentwicklung](https://de.wikipedia.org/wiki/Webentwicklung)) sich auf wenige Testverfahren zu konzentrieren:
+
+|                  | Unit-Tests                                                                                                                        | Integration-Tests                                                                                                                        | Funktionstests (Akzeptanztest)                                                                                                                                                                                                                                   |
+|------------------|-----------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Kurzbeschreibung | Kleine Code-Teile wie zum Beispiel individuelle Funktionen werden getestet.                                                       | Sind Unit-Tests in Systemumgebungen bzw. in Abhängigkeiten mit dem Systems (Datenbank, Dateisystem, Netzwerk, anderen Unit-Tests, etc.). | Prüft, ob eine Software aus Sicht des Benutzers wie beabsichtigt funktioniert.                                                                                                                                                                                   |
+| Eigenschaften    | - unabhängig vom System (DB, Dateisystem, Netzwerk, etc.) - meist auf Funktionsebene  - Definition Eingang und erwarteter Ausgang |                                                                                                                                          | - Automatisierte Browsersimulation - Überprüfen von User-Aktionen - Einbeziehen von Umgebungseigenschaften (Ausführen von Javascript, etc.) - Sparsames Einsetzen! - Login, Warenkorb, Formulare, etc. - Sofern möglich: Auf Unit- oder Integration-Tests setzen |
+| Aus der Sicht    |                                                                                                                                   |                                                                                                                                          |                                                                                                                                                                                                                                                                  |
+
 ## 2. Übersicht
 
 ### 2.1 E2E Testing Frameworks
