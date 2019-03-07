@@ -93,6 +93,8 @@ Nachfolgend und beziehend auf das Thema dieses Tutorials konzentrieren wir uns f
   * Javascript
   * für (Frontend-)Entwickler
   * 4 Ordner
+  * <img src="images/cypress.png">
+  * `user$ npm install cypress`
 
 ## 3. Best Practices
 
