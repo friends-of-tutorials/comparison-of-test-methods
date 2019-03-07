@@ -96,6 +96,7 @@ Nachfolgend und beziehend auf das Thema dieses Tutorials konzentrieren wir uns f
   * 4 Ordner
   * <img src="images/cypress.png">
   * `user$ npm install cypress`
+* etc.
 
 ## 3. Best Practices
 
