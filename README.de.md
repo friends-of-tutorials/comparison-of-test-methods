@@ -80,6 +80,14 @@ Nachfolgend und beziehend auf das Thema dieses Tutorials ein Einstieg nur auf di
 * visuelle Darstellung der Tests (aus Usersicht)
 * Kommandozeilenorientiert: automatische Tests vor dem Deployment (aus Administratorsicht)
 
+### 1.5 Akzeptanztests und deren Frameworks sind...
+
+* unabhängig von der zu testenden Anwendung
+* unabhängig von der Programmiersprache der zu testenden Anwendung
+* unabhängig von den Entwicklungsfortschritten
+* werden parallel zu den oben aufgeführten Schritten durchgeführt
+* können von einer "Drittperson" durchgeführt werden
+
 ## 2. Übersicht
 
 ### 2.1 E2E Testing Frameworks
@@ -112,10 +120,10 @@ Nachfolgende genannte bewährte Verfahren beziehen sich auf alle funktionalen Te
 ### 3.2 Verwenden von Selektoren
 
 * Verwende keine Design-gebundenen Selektoren (CSS, classes, Tags, etc.)
-** diese können sich ändern und brechen damit den Test
+  * diese können sich ändern und brechen damit den Test
 * Verwende Design-ungebundene Selektoren (data Attribute, Text, etc.)
-** Diese werden nur für das Testing verwendet
-** Text-Tests sind wichtig, wenn der Test abhängig vom Text ist (Speichern vs. Abbrechen)
+  * Diese werden nur für das Testing verwendet
+  * Text-Tests sind wichtig, wenn der Test abhängig vom Text ist (Speichern vs. Abbrechen)
 
 Beispiel:
 
