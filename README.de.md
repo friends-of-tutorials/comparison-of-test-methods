@@ -1,4 +1,4 @@
-# E2E Testing - Best practices
+# E2E Testing
 
 ## 1. Einleitung
 
