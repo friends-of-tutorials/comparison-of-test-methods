@@ -83,8 +83,16 @@ Nachfolgend und beziehend auf das Thema dieses Tutorials konzentrieren wir uns f
 
 ### 2.1 E2E Testing Frameworks
 
-* [Cypress](https://www.cypress.io)
 * [Selenium WebDriver](https://www.seleniumhq.org/projects/webdriver)
+  * Java
+  * für QA-Entwickler
+  * komplexe Umgebung -> Framework Architecture Design
+    * http://seleniummaster.com/sitecontent/images/Selenium%20Webdriver%20FrameworkDirectoryStructure.png
+    * http://4.bp.blogspot.com/-kJV67jnJ3MQ/U4uJfHVdIAI/AAAAAAAAARg/9eIgRHfCjCI/s1600/IMAG1218.jpg
+* [Cypress](https://www.cypress.io)
+  * Javascript
+  * für (Frontend-)Entwickler
+  * relativ einfach gehalten
 
 ## 3. Best Practices
 
