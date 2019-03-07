@@ -20,7 +20,7 @@ Es gibt unzählige Arten von Testverfahren. Viele machen generell ähnliche Ding
 
 #### 1.1.2 [Nichtfunktionale Tests](https://en.wikipedia.org/wiki/Non-functional_testing) (Funktionsweise eines Systems)
 
-Die Namen vieler nicht funktionaler Tests werden häufig austauschbar verwendet und überlappen oft stark.
+Die Namen vieler nichtfunktionaler Tests werden häufig austauschbar verwendet und überlappen oft stark.
 
 * [A/B Tests](https://en.wikipedia.org/wiki/A/B_testing)
 * Availability testing
@@ -65,7 +65,7 @@ Nachfolgend und beziehend auf das Thema dieses Tutorials ein Einstieg nur auf di
 
 ### 1.3 Wichtig!
 
-* Akzeptanztest sparsam einsetzen, da diese bedingt durch die Simulation von User-Aktionen eine gewisse Performance vorraussetzen
+* Akzeptanztest sparsam einsetzen, da diese bedingt durch die Simulation von User-Aktionen eine gewisse Performance vorraussetzen und dadurch eine gewisse Ausführungszeit benötigen
 * Wenn möglich, dann eher detailierte Prüfungen durch Unit- und Integrationstests abdecken!
   * Lade Datensatz xy (Eingaben) und erwarte Inhalt yz
 * Nur die entscheidenden (geschäftskritische) Funktionen testen, z.B.:
