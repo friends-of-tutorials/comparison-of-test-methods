@@ -4,7 +4,7 @@
 
 ### 1.1 Testverfahren im Vergleich
 
-Es gibt unzählige Arten von Testverfahren. Viele machen generell ähnliche Dinge bzw. beschreiben faktisch die gleichen Testmethoden (z.B. Funktionentests, E2E-Tests, Browsertests, GUI-Tests, Akzeptanztest, Systemtests, etc.). Nachfolgend Testmethoden aus den [Softwaretests](https://de.wikipedia.org/wiki/Softwaretest), mit welchen man sich auseinandersetzen könnte:
+Es gibt unzählige Arten von Testverfahren. Viele machen generell ähnliche Dinge bzw. beschreiben faktisch die gleichen Testmethoden (z.B. Funktionentests, E2E-Tests, Browsertests, GUI-Tests, Akzeptanztest, Systemtests, etc.). Nachfolgend Testmethoden aus den [Softwaretests](https://de.wikipedia.org/wiki/Softwaretest), mit welchen man sich auseinandersetzen könnte (natürlich nur ein "Auszug"):
 
 #### 1.1.1 Funktionentests (funktionale Anforderungen)
 
@@ -53,22 +53,22 @@ Die Namen vieler nicht funktionaler Tests werden häufig austauschbar verwendet 
 
 Oftmals ist es nicht notwendig (vor allem in der [Webentwicklung](https://de.wikipedia.org/wiki/Webentwicklung)) sich auf alle Testverfahren zu konzentrieren (Konzentriere dich nur auf die Wichtigsten!). Viele nicht-funktionale Tests werdem durch Admins ausgeführt, der Rest sind Tests für Spezialisten:
 
-|                  | Unit-Tests                                                                                                                        | Integration-Tests                                                                                                                        | Funktionstests (Akzeptanztest)                                                                                                                                                                                                                                   |
-|------------------|-----------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Kurzbeschreibung | Kleine Code-Teile wie zum Beispiel individuelle Funktionen werden getestet. | Sind Unit-Tests in Systemumgebungen bzw. in Abhängigkeiten mit dem Systems (Datenbank, Dateisystem, Netzwerk, anderen Unit-Tests, etc.). | Prüft, ob eine Software aus Sicht des Benutzers wie beabsichtigt funktioniert. |
+| | Unit-Tests | Integration-Tests | Funktionstests (Akzeptanztest) |
+|---|---|---|---|
+| Kurzbeschreibung | Prüft kleine Code-Teile wie zum Beispiel individuelle Funktionen auf einen Erwartungswert bei gegebenen Eingaben. | Prüft Unit-Tests in Systemumgebungen bzw. in Abhängigkeiten auf dem auszuführendem Systems (Datenbank, Dateisystem, Netzwerk, anderen Unit-Tests, etc.). | Prüft, ob eine Software aus Sicht des Benutzers wie beabsichtigt funktioniert. |
 | Eigenschaften | - unabhängig vom System (DB, Dateisystem, Netzwerk, etc.)<br>- meist auf Funktionsebene<br>- Definition Eingang und erwarteter Ausgang | Integration Tests helfen dabei, zu überprüfen, ob und wie verschiedene Teile einer Anwendung mit dem System zusammenarbeiten (DB, Dateisystem, Netzwerk, andere Module, etc.) | - Automatisierte Browsersimulation<br>- Überprüfen von User-Aktionen<br>- Einbeziehen von Umgebungseigenschaften (Ausführen von Javascript, etc.)<br>- Durch Realisierung von User-Aktionen, Ausführung teilweise lang: Sparsames Einsetzen!<br>- Login, Warenkorb, Formulare, etc.<br>- Sofern möglich: Auf Unit- oder Integration-Tests setzen |
 | Entwicklungsebene | Auf Code-Ebene (Programmiersprachenabhängig) | In den meisten Fällen ebenfalls auf Code-Ebene (Programmiersprachenabhängig) | Auf GUI Ebene (unabhängig von der Entwicklungsumgebung und Sprache) |
-| Geschrieben von | Entwicklern | Entwicklern | Entwicklern, Usern, Kunden |
+| Geschrieben von | Entwicklern | Entwicklern | Entwicklern, Usern (Kunden), Administratoren |
 | Verwendet von | Entwicklern | Entwicklern | Usern, Kunden |
 
-Nachfolgend und beziehend auf das Thema dieses Tutorials konzentrieren wir uns für das Erste nur auf die Tests, welche die größte Schnittmenge abdeckt: den Akzeptanztests respektive den E2E-Tests ;): Akzeptanztest erhöhen das Vertrauen in der Verwendung der Software zwischen dem Kunden und den Entwickler.
+Nachfolgend und beziehend auf das Thema dieses Tutorials ein Einstieg nur auf die Tests, welche die größte Schnittmenge zwischen Usern (Kunden) und Entwicklern abdeckt: den Akzeptanztests respektive den E2E-Tests. Akzeptanztest erhöhen das Vertrauen in der Verwendung der Software zwischen Usern (Kunden) und den Entwicklern.
 
 ### 1.3 Wichtig!
 
-* Akzeptanztest sparsam einsetzen, da diese bedingt durch die Simulation von User-Aktionen eine gewisse Zeit benötigen
-* Wenn möglich detailierte Tests durch Unit- und Integrationstests abdecken!
-  * Lade Datensatz xy, erwarte Inhalt xy
-* Nur die entscheidenden Funktionen testen
+* Akzeptanztest sparsam einsetzen, da diese bedingt durch die Simulation von User-Aktionen eine gewisse Performance vorraussetzen
+* Wenn möglich, dann eher detailierte Prüfungen durch Unit- und Integrationstests abdecken!
+  * Lade Datensatz xy (Eingaben) und erwarte Inhalt yz
+* Nur die entscheidenden (geschäftskritische) Funktionen testen, z.B.:
   * Loginfunktion
   * Warenkorbfunktion
   * Bestellprozess
@@ -77,30 +77,30 @@ Nachfolgend und beziehend auf das Thema dieses Tutorials konzentrieren wir uns f
 
 ### 1.4 Vorraussetzungen, Anforderungen
 
-* visuelle Darstellung der Tests (aus Kundensicht)
-* Kommandozeilenorientiert (automatische Tests vor dem Deployment)
+* visuelle Darstellung der Tests (aus Usersicht)
+* Kommandozeilenorientiert: automatische Tests vor dem Deployment (aus Administratorsicht)
 
 ## 2. Übersicht
 
 ### 2.1 E2E Testing Frameworks
 
 * [Selenium WebDriver](https://www.seleniumhq.org/projects/webdriver)
-  * Java
-  * für QA-Entwickler
-  * komplexe Umgebung (besitzt ein Framework Architecture Design)
+  * benötigt Kenntnisse in der Programmiersprache "Java"
+  * ist ein Framework für [QA](https://de.wikipedia.org/wiki/Qualit%C3%A4tssicherung)-Entwickler
+  * erfordert eine komplexe Umgebung (besitzt ein "Framework Architecture Design")
     * http://seleniummaster.com/sitecontent/images/Selenium%20Webdriver%20FrameworkDirectoryStructure.png
     * http://4.bp.blogspot.com/-kJV67jnJ3MQ/U4uJfHVdIAI/AAAAAAAAARg/9eIgRHfCjCI/s1600/IMAG1218.jpg
 * [Cypress](https://www.cypress.io)
-  * Javascript
-  * für (Frontend-)Entwickler
+  * benötigt Kenntnisse in der Programmiersprache "Javascript"
+  * ist ein Framework für (Frontend-)Entwickler
   * 4 Ordner
-  * <img src="images/cypress.png">
+    * <img src="images/cypress.png">
   * `user$ npm install cypress`
 * etc.
 
 ## 3. Best Practices
 
-Nachfolgende genannte bewährte Verfahren beziehen sich auf alle Testverfahren und sind Framework- und Tool-unabhängig. Genannte Codebeispiele beziehen sich auf auf das Cypress Framework.
+Nachfolgende genannte bewährte Verfahren beziehen sich auf alle funktionalen Testverfahren (Akzeptanztest) und sind Framework- und Tool-unabhängig. Genannte Codebeispiele beziehen sich auf auf das Cypress Framework.
 
 ### 3.1 Login
 
