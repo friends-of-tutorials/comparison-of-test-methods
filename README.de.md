@@ -51,7 +51,7 @@ Die Namen vieler nicht funktionaler Tests werden häufig austauschbar verwendet 
 
 ### 1.2. Konzentration auf das Wesentliche
 
-Oftmals ist es nicht notwendig (vor allem in der [Webentwicklung](https://de.wikipedia.org/wiki/Webentwicklung)) sich auf alle Testverfahren zu konzentrieren (Konzentriere dich nur auf die Wichtigsten!). Viele nicht-funktionale Tests werdem durch Admins ausgeführt, der Rest sind Tests für Spezialisten:
+Oftmals ist es nicht notwendig (vor allem in der [Webentwicklung](https://de.wikipedia.org/wiki/Webentwicklung)) sich auf alle Testverfahren zu konzentrieren (Konzentriere dich nur auf die Wichtigsten!). Viele nicht-funktionale Tests werdem durch Admins ausgeführt (z.B. Lasttests), der Rest sind Tests für Spezialisten (z.B. Usability-Tests). Wichtiger sind eher:
 
 | | Unit-Tests | Integration-Tests | Funktionstests (Akzeptanztest) |
 |---|---|---|---|
