@@ -1,4 +1,4 @@
-# E2E Testing
+# Testverfahren im Vergleich
 
 ## 1. Einleitung
 
