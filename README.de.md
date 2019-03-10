@@ -2,17 +2,6 @@
 
 ## 1. Einleitung
 
-<table>
-    <tr>
-        <th>Month</th>
-        <th>Savings</th>
-    </tr>
-    <tr>
-        <td valign="top">text<br>text</td>
-        <td valign="top">text</td>
-    </tr>
-</table>
-
 ### 1.1 Testverfahren im Vergleich
 
 Es gibt unzählige Arten von Testverfahren. Viele machen generell ähnliche Dinge bzw. beschreiben faktisch die gleichen Testmethoden (z.B. Funktionentests, E2E-Tests, Browsertests, GUI-Tests, Akzeptanztest, Systemtests, etc.). Nachfolgend Testmethoden aus den [Softwaretests](https://de.wikipedia.org/wiki/Softwaretest), mit welchen man sich auseinandersetzen kann (natürlich nur ein "Auszug"):
@@ -64,13 +53,113 @@ Die Namen vieler nichtfunktionaler Tests werden häufig austauschbar verwendet u
 
 Oftmals ist es nicht notwendig (vor allem in der [Webentwicklung](https://de.wikipedia.org/wiki/Webentwicklung)) sich auf alle Testverfahren zu konzentrieren: Konzentriere dich nur auf die Wichtigsten! Viele nichtfunktionale Tests werdem durch Systemadministratoren ausgeführt (z.B. Lasttests), andere sind Tests für Spezialisten (z.B. Usability-Tests). Wichtiger sind eher Tests aus dem funktionalen Test-Bereich:
 
-| | [Unit-Tests](#user-content-2-unit-tests) | [Integration-Tests](#user-content-3-integration-tests) | [Funktionstests (Akzeptanztests)](#user-content-4-funktionstests-akzeptanztests) |
-|---|---|---|---|
-| Kurzbeschreibung | Prüft kleine Code-Teile wie zum Beispiel individuelle Funktionen auf einen Erwartungswert bei gegebenen Eingaben. | Prüft Unit-Tests in Systemumgebungen bzw. in Abhängigkeiten auf dem auszuführendem Systems (Datenbank, Dateisystem, Netzwerk, anderen Unit-Tests, etc.). | Prüft, ob eine Software aus Sicht des Benutzers wie beabsichtigt funktioniert. |
-| Eigenschaften | <ul><li>unabhängig vom System (DB, Dateisystem, Netzwerk, etc.)</li><li>meist auf Funktionsebene</li><li>Definition Eingang und erwarteter Ausgang</li></ul> | Integration Tests helfen dabei, zu überprüfen, ob und wie verschiedene Teile einer Anwendung mit dem System zusammenarbeiten (DB, Dateisystem, Netzwerk, andere Module, etc.) | - Automatisierte Browsersimulation<br>- Überprüfen von User-Aktionen<br>- Einbeziehen von Umgebungseigenschaften (Ausführen von Javascript, etc.)<br>- Durch Realisierung von User-Aktionen, Ausführung teilweise lang: Sparsames Einsetzen!<br>- Login, Warenkorb, Formulare, etc.<br>- Sofern möglich: Auf Unit- oder Integration-Tests setzen |
-| Entwicklungsebene | Auf Code-Ebene (Programmiersprachenabhängig) | In den meisten Fällen ebenfalls auf Code-Ebene (Programmiersprachenabhängig) | Auf GUI Ebene (unabhängig von der Entwicklungsumgebung und Sprache) |
-| Geschrieben von | Entwicklern | Entwicklern | Entwicklern, Usern (Kunden), Administratoren |
-| Verwendet von | Entwicklern | Entwicklern | Usern, Kunden |
+<table>
+    <tr>
+        <th valign="top"></th>
+        <th valign="top">[Unit-Tests](#user-content-2-unit-tests)</th>
+        <th valign="top">[Integration-Tests](#user-content-3-integration-tests)</th>
+        <th valign="top">[Funktionstests (Akzeptanztests)](#user-content-4-funktionstests-akzeptanztests)</th>
+    </tr>
+    <tr>
+        <td valign="top">
+            Kurzbeschreibung
+        </td>
+        <td valign="top">
+            Prüft kleine Code-Teile wie zum Beispiel individuelle Funktionen auf einen Erwartungswert
+            bei gegebenen Eingaben.
+        </td>
+        <td valign="top">
+            Prüft Unit-Tests in Systemumgebungen bzw. in Abhängigkeiten auf dem auszuführendem Systems
+            (Datenbank, Dateisystem, Netzwerk, anderen Unit-Tests, etc.).
+        </td>
+        <td valign="top">
+            Prüft, ob eine Software aus Sicht des Benutzers wie beabsichtigt funktioniert.
+        </td>
+    </tr>
+    <tr>
+        <td valign="top">
+            Eigenschaften
+        </td>
+        <td valign="top">
+            <ul>
+                <li>unabhängig vom System (DB, Dateisystem, Netzwerk, etc.)</li>
+                <li>meist auf Funktionsebene</li>
+                <li>Definition Eingang und erwarteter Ausgang</li>
+                <li>Verringern die notwendige Anzahl an Akzeptanztests</li>
+            </ul>
+        </td>
+        <td valign="top">
+            Integration Tests helfen dabei, zu überprüfen, ob und wie verschiedene Teile
+            einer Anwendung mit dem System zusammenarbeiten (DB, Dateisystem, Netzwerk,
+            andere Module, etc.)
+        </td>
+        <td valign="top">
+            <ul>
+                <li>Automatisierte Browsersimulation</li>
+                <li>Überprüfen von User-Aktionen</li>
+                <li>Einbeziehen von Umgebungseigenschaften (Ausführen von Javascript, etc.)</li>
+                <li>Durch Realisierung von User-Aktionen, Ausführung teilweise lang: Sparsames Einsetzen!</li>
+                <li>Für geschäftskritische Bereiche: Login, Warenkorb, Formulare, etc.</li>
+                <li>Sofern möglich: Auf Unit- oder Integration-Tests setzen</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td valign="top">
+            Entwicklungsebene
+        </td>
+        <td valign="top">
+            Auf Code-Ebene (Programmiersprachenabhängig)
+        </td>
+        <td valign="top">
+            In den meisten Fällen ebenfalls auf Code-Ebene (Programmiersprachenabhängig)
+        </td>
+        <td valign="top">
+            Auf "Bedienebene" (unabhängig von der Entwicklungsumgebung und Sprache)
+        </td>
+    </tr>
+    <tr>
+        <td valign="top">
+            Geschrieben von
+        </td>
+        <td valign="top">
+            Entwicklern
+        </td>
+        <td valign="top">
+            Entwicklern
+        </td>
+        <td valign="top">
+            <ul>
+                <li>
+                    Entwicklern
+                </li>
+                <li>
+                    QA-Testern
+                </li>
+                <li>
+                    Usern (Kunden)
+                </li>
+                <li>
+                    Administratoren
+                </li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td valign="top">
+            Verwendet von
+        </td>
+        <td valign="top">
+            Entwicklern
+        </td>
+        <td valign="top">
+            Entwicklern
+        </td>
+        <td valign="top">
+            Usern (Kunden)
+        </td>
+    </tr>
+</table>
 
 
 ## 2. Unit-Tests
