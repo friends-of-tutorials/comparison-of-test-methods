@@ -6,7 +6,7 @@
 
 Es gibt unzählige Arten von Testverfahren. Viele machen generell ähnliche Dinge bzw. beschreiben faktisch die gleichen Testmethoden (z.B. Funktionentests, E2E-Tests, Browsertests, GUI-Tests, Akzeptanztest, Systemtests, etc.). Nachfolgend Testmethoden aus den [Softwaretests](https://de.wikipedia.org/wiki/Softwaretest), mit welchen man sich auseinandersetzen kann (natürlich nur ein "Auszug"):
 
-#### 1.1.1 Funktionentests (funktionale Anforderungen)
+#### 1.1.1 [funktionale Tests](https://de.wikipedia.org/wiki/Funktionstest) (funktionale Anforderungen)
 
 * [Akzeptanztest](https://de.wikipedia.org/wiki/Akzeptanztest_(Softwaretechnik)) oder auch _UAT_
 * [API Tests](https://en.wikipedia.org/wiki/API_testing) oder auch _API testing_
@@ -51,7 +51,7 @@ Die Namen vieler nichtfunktionaler Tests werden häufig austauschbar verwendet u
 
 ### 1.2. Konzentration auf das Wesentliche
 
-Oftmals ist es nicht notwendig (vor allem in der [Webentwicklung](https://de.wikipedia.org/wiki/Webentwicklung)) sich auf alle Testverfahren zu konzentrieren: Konzentriere dich nur auf die Wichtigsten! Viele nichtfunktionale Tests werdem durch Admins ausgeführt (z.B. Lasttests), der Rest sind Tests für Spezialisten (z.B. Usability-Tests). Wichtiger sind eher:
+Oftmals ist es nicht notwendig (vor allem in der [Webentwicklung](https://de.wikipedia.org/wiki/Webentwicklung)) sich auf alle Testverfahren zu konzentrieren: Konzentriere dich nur auf die Wichtigsten! Viele nichtfunktionale Tests werdem durch Systemadministratoren ausgeführt (z.B. Lasttests), andere sind Tests für Spezialisten (z.B. Usability-Tests). Wichtiger sind eher:
 
 | | Unit-Tests | Integration-Tests | Funktionstests (Akzeptanztest) |
 |---|---|---|---|
