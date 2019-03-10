@@ -53,7 +53,7 @@ Die Namen vieler nichtfunktionaler Tests werden häufig austauschbar verwendet u
 
 Oftmals ist es nicht notwendig (vor allem in der [Webentwicklung](https://de.wikipedia.org/wiki/Webentwicklung)) sich auf alle Testverfahren zu konzentrieren: Konzentriere dich nur auf die Wichtigsten! Viele nichtfunktionale Tests werdem durch Systemadministratoren ausgeführt (z.B. Lasttests), andere sind Tests für Spezialisten (z.B. Usability-Tests). Wichtiger sind eher:
 
-| | Unit-Tests | Integration-Tests | Funktionstests (Akzeptanztest) |
+| | Unit-Tests | Integration-Tests | Funktionstests (Akzeptanztests) |
 |---|---|---|---|
 | Kurzbeschreibung | Prüft kleine Code-Teile wie zum Beispiel individuelle Funktionen auf einen Erwartungswert bei gegebenen Eingaben. | Prüft Unit-Tests in Systemumgebungen bzw. in Abhängigkeiten auf dem auszuführendem Systems (Datenbank, Dateisystem, Netzwerk, anderen Unit-Tests, etc.). | Prüft, ob eine Software aus Sicht des Benutzers wie beabsichtigt funktioniert. |
 | Eigenschaften | - unabhängig vom System (DB, Dateisystem, Netzwerk, etc.)<br>- meist auf Funktionsebene<br>- Definition Eingang und erwarteter Ausgang | Integration Tests helfen dabei, zu überprüfen, ob und wie verschiedene Teile einer Anwendung mit dem System zusammenarbeiten (DB, Dateisystem, Netzwerk, andere Module, etc.) | - Automatisierte Browsersimulation<br>- Überprüfen von User-Aktionen<br>- Einbeziehen von Umgebungseigenschaften (Ausführen von Javascript, etc.)<br>- Durch Realisierung von User-Aktionen, Ausführung teilweise lang: Sparsames Einsetzen!<br>- Login, Warenkorb, Formulare, etc.<br>- Sofern möglich: Auf Unit- oder Integration-Tests setzen |
@@ -61,9 +61,22 @@ Oftmals ist es nicht notwendig (vor allem in der [Webentwicklung](https://de.wik
 | Geschrieben von | Entwicklern | Entwicklern | Entwicklern, Usern (Kunden), Administratoren |
 | Verwendet von | Entwicklern | Entwicklern | Usern, Kunden |
 
-Nachfolgend und beziehend auf das Thema dieses Tutorials ein Einstieg nur auf die Tests, welche die größte Schnittmenge zwischen Usern (Kunden) und Entwicklern abdeckt: den Akzeptanztests respektive den E2E-Tests. Akzeptanztest erhöhen das Vertrauen in der Verwendung der Software zwischen Usern (Kunden) und den Entwicklern.
 
-### 1.3 Wichtig!
+### 2. Unit-Tests
+
+### 3. Integration-Tests
+
+Todo..
+
+### 4. Funktionstests (Akzeptanztests) 
+
+Nachfolgend der Testbereicht, welcher die größte Schnittmenge zwischen Usern (Kunden) und Entwicklern abdeckt: den Akzeptanztests respektive den E2E-Tests. Akzeptanztest erhöhen das Vertrauen in der Verwendung der Software zwischen Usern (Kunden) und den Entwicklern.
+
+### 4.1 Einleitend
+
+Todo..
+
+#### 4.1.1 Wichtig!
 
 * Akzeptanztest sparsam einsetzen, da diese bedingt durch die Simulation von User-Aktionen eine gewisse Performance vorraussetzen und dadurch eine gewisse Ausführungszeit benötigen
 * Wenn möglich, dann eher detailierte Prüfungen durch Unit- und Integrationstests abdecken!
@@ -75,12 +88,12 @@ Nachfolgend und beziehend auf das Thema dieses Tutorials ein Einstieg nur auf di
   * Formularfunktionen
   * eher nicht: jede einzelne Seite auf Inhalte überprüfen (mögliche Änderungen am Inhalt brechen den Test)
 
-### 1.4 Vorraussetzungen, Anforderungen
+#### 4.1.2 Vorraussetzungen, Anforderungen
 
 * visuelle Darstellung der Tests (aus Usersicht)
 * Kommandozeilenorientiert: automatische Tests vor dem Deployment (aus Administratorsicht)
 
-### 1.5 Akzeptanztests und deren Frameworks sind...
+#### 4.1.3 Akzeptanztests und deren Frameworks sind...
 
 * unabhängig von der zu testenden Anwendung
 * unabhängig von der Programmiersprache der zu testenden Anwendung
@@ -88,9 +101,9 @@ Nachfolgend und beziehend auf das Thema dieses Tutorials ein Einstieg nur auf di
 * werden parallel zu den oben aufgeführten Schritten durchgeführt
 * können von einer "Drittperson" durchgeführt werden
 
-## 2. Übersicht
+### 4.2 Übersicht
 
-### 2.1 E2E Testing Frameworks
+#### 4.2.1 E2E Testing Frameworks
 
 * [Selenium WebDriver](https://www.seleniumhq.org/projects/webdriver)
   * benötigt Kenntnisse in der Programmiersprache "Java"
@@ -106,18 +119,18 @@ Nachfolgend und beziehend auf das Thema dieses Tutorials ein Einstieg nur auf di
   * `user$ npm install cypress`
 * etc.
 
-## 3. Best Practices
+### 4.3 Best Practices
 
 Nachfolgende genannte bewährte Verfahren beziehen sich auf alle funktionalen Testverfahren (Akzeptanztest) und sind Framework- und Tool-unabhängig. Genannte Codebeispiele beziehen sich auf auf das Cypress Framework.
 
-### 3.1 Login
+#### 4.3.1 Login
 
 * Logge dich nicht über die GUI ein (langsam und durchaus fehleranfällig)
 * Logge dich programmgesteuert in deine Anwendung ein
   * übernimm die Kontrolle deiner Anwendung: Setze den Login-Status direkt beim Testen
 * Einzige Ausnahme: Du testest den Login-Prozess direkt
 
-### 3.2 Verwenden von Selektoren
+#### 4.3.2 Verwenden von Selektoren
 
 * Verwende keine Design-gebundenen Selektoren (CSS, classes, Tags, etc.)
   * diese können sich ändern und brechen damit den Test
@@ -136,7 +149,7 @@ Beispiel:
   * z.B. Text ändert sich von "Save" zu "Cancel"
 * Optimal (*eindeutig ersichtlich, dass dieses Attribut zum Testen verwendet wird*): `cy.get('[data-cy=save]').click()`
 
-### 3.3 Besuch von externen Quellen (Seiten, APIs, etc.)
+#### 4.3.3 Besuch von externen Quellen (Seiten, APIs, etc.)
 
 * Interagiere mit keinen Websites oder Servern, die du nicht selbst kontrollierst
 * Besser: verwende gar keine externen Quellen
@@ -165,13 +178,13 @@ Tipps und Tricks für den Login-Prozess:
 * Wenn Du einen echten Token benötigst, kann dieser unter Umständen auch anders als über den Login erhalten werden (via API, fester Programmier-Token, etc.)
 * etc.
 
-### 3.4 Testabhängigkeiten
+#### 4.3.4 Testabhängigkeiten
 
 * Vermeide die Durchführung von Tests, welche auf dem Stand früherer Tests basieren
 * Tests sollten immer unabhängig voneinander ausgeführt werden können und trotzdem erfolgreich sein
 * Lagere geteilten Testcode aus, welcher von verschiedenen Tests benötigt wird (Initialisierungen von Formularen, etc.)
 
-### 3.5 Komplexität von Tests
+#### 4.3.5 Komplexität von Tests
 
 * Einzelne Tests sollten nicht zu komplex, aber auch nicht zu einfach sein
 * Ein einzelner Test welcher die Webseite komplett testet ist genauso ineffektiv, wie viele Test, welche sich nur auf einen einzelnen Punkt konzentrieren (Seitenelement enthält den Wert xy, etc.)
@@ -179,7 +192,7 @@ Tipps und Tricks für den Login-Prozess:
 * Zuviele Tests mit nur einem einzelnen Testelement sind nicht performant
 * Zu komplexe Tests schwierig zu warten
 
-### 3.6 Unnötiges Warten
+#### 4.3.6 Unnötiges Warten
 
 * Vermeide zeitabhängige Tests (z.B. bis Element auf Seite zu sehen ist)
 * Meist gibt es einen einacheren Weg solche Dinge zu testen (eventuell sind sie gar nicht notwendig oder sogar falsch)
@@ -188,7 +201,7 @@ Beispiele:
 
 Todo..
 
-### 3.7 Web Server
+#### 4.3.7 Web Server
 
 * Webserver (oder andere notwendige Dienste) sollten nicht innerhalb von Tests erst gestartet werden müssen
 * Besser: Die benötigten Dienste sind schon vor dem Teststart vorhanden (andernfalls wird der Test gar nicht erst gestartet)
@@ -196,7 +209,7 @@ Todo..
 * Die Unabhängigkeit von Tests ist durchaus nicht gewährleistet (oder jeder Test müsste seinen eigenen Dienst starten)
 * Parallele Tests sind nicht möglich (Eventuelle Portkonflikte, etc.)
 
-### 3.8 Verwenden von URLs
+#### 4.3.8 Verwenden von URLs
 
 * Vermeide die Verwendung von festen kompletten Adressen wie `https://www.address.com/login`
 * Verwende relative Adressen wie `/login`
@@ -205,13 +218,13 @@ Todo..
 * Tests sollten unabhängig der verwendeten URL sein (`http://localhost`, `https://www.address.com`, etc.)
 * Unabhängig von z.B. verwendeten Ports (`http://localhost`, `http://localhost:8080`, etc.)
 
-## 4. Best Practices (Cypress)
+### 4.4 Best Practices (Cypress)
 
-### 4.1 Zuweisen von Rückgabewerten
+#### 4.4.1 Zuweisen von Rückgabewerten
 
 Todo..
 
-### 4.2 Verwendung von "after" oder "afterEach" Hooks
+#### 4.4.2 Verwendung von "after" oder "afterEach" Hooks
 
 Todo..
 
