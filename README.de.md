@@ -8,8 +8,7 @@ Es gibt unzählige Arten von Testverfahren. Viele machen generell ähnliche Ding
 
 #### 1.1.1 [funktionale Tests](https://de.wikipedia.org/wiki/Funktionstest) (funktionale Anforderungen)
 
-* [Akzeptanztest](https://de.wikipedia.org/wiki/Akzeptanztest_(Softwaretechnik)) oder auch _UAT_
-  * **Info:** Dies ist der Test, welchen man meist umgangssprächlich mit _Functional Testing_ meint
+* [Akzeptanztest](https://de.wikipedia.org/wiki/Akzeptanztest_(Softwaretechnik)) oder auch _UAT_<sup>1</sup>
 * [API Tests](https://en.wikipedia.org/wiki/API_testing) oder auch _API testing_
 * [Integrationstest](https://de.wikipedia.org/wiki/Integrationstest) oder auch _integration testing_
 * Interface Testing
@@ -248,7 +247,7 @@ Todo..
 
 ## D. Fußnoten
 
-* <sup>1</sup> = ..
+* <sup>1</sup> = Der Akzeptanztest meist der Test, welchen man umgangssprächlich mit _Functional Testing_ meint
 
 ## E. Autoren
 
