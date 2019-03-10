@@ -62,15 +62,15 @@ Oftmals ist es nicht notwendig (vor allem in der [Webentwicklung](https://de.wik
 | Verwendet von | Entwicklern | Entwicklern | Usern, Kunden |
 
 
-### 2. Unit-Tests
+## 2. Unit-Tests
 
 Todo..
 
-### 3. Integration-Tests
+## 3. Integration-Tests
 
 Todo..
 
-### 4. Funktionstests (Akzeptanztests) 
+## 4. Funktionstests (Akzeptanztests) 
 
 Nachfolgend der Testbereicht, welcher die größte Schnittmenge zwischen Usern (Kunden) und Entwicklern abdeckt: den Akzeptanztests respektive den E2E-Tests. Akzeptanztest erhöhen das Vertrauen in der Verwendung der Software zwischen Usern (Kunden) und den Entwicklern.
 
