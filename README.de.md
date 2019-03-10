@@ -353,7 +353,7 @@ Todo..
 
 ## D. Fußnoten
 
-<table>
+<table border="0">
     <tr>
         <td>
             <a id="user-content-footnote-1"><sup>1</sup></a>
