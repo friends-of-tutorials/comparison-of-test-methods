@@ -353,7 +353,16 @@ Todo..
 
 ## D. Fußnoten
 
-* <a id="user-content-footnote-1"><sup>1</sup></a> = Der Akzeptanztest meist der Test, welchen man umgangssprächlich mit _Functional Testing_ meint
+<table>
+    <tr>
+        <td>
+            <a id="user-content-footnote-1"><sup>1</sup></a>
+        </td>
+        <td>
+            Der Akzeptanztest meist der Test, welchen man umgangssprächlich mit _Functional Testing_ meint
+        </td>
+    </tr>
+</table>
 
 ## E. Autoren
 
