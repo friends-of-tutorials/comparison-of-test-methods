@@ -105,25 +105,37 @@ Oftmals ist es nicht notwendig (vor allem in der [Webentwicklung](https://de.wik
         </td>
         <td valign="top">
             <ul>
-                <li>
+                <li><sub><sup>
                     meist systemabhängig (DB, Dateisystem, Netzwerk, andere Module, etc.)
-                </li>
-                <li>
+                </sup></sub></li>
+                <li><sub><sup>
                     helfen dabei die Zusammenarbeit von systemunabhängigen Komponenten
                     (z.B. Unit-Tests) in einer systemabhängigen Umbegung zu prüfen
-                </li>
-                <li>
+                </sup></sub></li>
+                <li><sub><sup>
                     sind kostspieliger als systemunabhängige Tests
-                </li>
+                </sup></sub></li>
         </td>
         <td valign="top">
             <ul>
-                <li>Automatisierte Browsersimulation</li>
-                <li>Überprüfen von User-Aktionen</li>
-                <li>Einbeziehen von Umgebungseigenschaften (Ausführen von Javascript, etc.)</li>
-                <li>Durch Realisierung von User-Aktionen, Ausführung teilweise lang: Sparsames Einsetzen!</li>
-                <li>Für geschäftskritische Bereiche: Login, Warenkorb, Formulare, etc.</li>
-                <li>Sofern möglich: Auf Unit- oder Integration-Tests setzen</li>
+                <li><sub><sup>
+                    Automatisierte Browsersimulation
+                </sup></sub></li>
+                <li><sub><sup>
+                    Überprüfen von User-Aktionen
+                </sup></sub></li>
+                <li><sub><sup>
+                    Einbeziehen von Umgebungseigenschaften (Ausführen von Javascript, etc.)
+                </sup></sub></li>
+                <li><sub><sup>
+                    Durch Realisierung von User-Aktionen, Ausführung teilweise lang: Sparsames Einsetzen!
+                </sup></sub></li>
+                <li><sub><sup>
+                    Für geschäftskritische Bereiche: Login, Warenkorb, Formulare, etc.
+                </sup></sub></li>
+                <li><sub><sup>
+                    Sofern möglich: Auf Unit- oder Integration-Tests setzen
+                </sup></sub></li>
             </ul>
         </td>
     </tr>
