@@ -104,9 +104,17 @@ Oftmals ist es nicht notwendig (vor allem in der [Webentwicklung](https://de.wik
             </ul>
         </td>
         <td valign="top">
-            Integration Tests helfen dabei, zu überprüfen, ob und wie verschiedene Teile
-            einer Anwendung mit dem System zusammenarbeiten (DB, Dateisystem, Netzwerk,
-            andere Module, etc.)
+            <ul>
+                <li>
+                    meist systemabhängig (DB, Dateisystem, Netzwerk, andere Module, etc.)
+                </li>
+                <li>
+                    helfen dabei die Zusammenarbeit von systemunabhängigen Komponenten
+                    (z.B. Unit-Tests) in einer systemabhängigen Umbegung zu prüfen
+                </li>
+                <li>
+                    sind kostspieliger als systemunabhängige Tests
+                </li>
         </td>
         <td valign="top">
             <ul>
