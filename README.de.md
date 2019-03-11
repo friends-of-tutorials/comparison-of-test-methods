@@ -88,10 +88,10 @@ Oftmals ist es nicht notwendig (vor allem in der [Webentwicklung](https://de.wik
         </td>
         <td valign="top">
             <ul>
-                <li><sup>
+                <li><sub>
                     unabhängig vom System (DB, Dateisystem, Netzwerk, etc.) bzw. erfordern
                     keine Kenntniss vom System
-                </sup></li>
+                </sub></li>
                 <li><sub>
                     meist auf Funktionsebene
                 </sub></li>
@@ -105,37 +105,37 @@ Oftmals ist es nicht notwendig (vor allem in der [Webentwicklung](https://de.wik
         </td>
         <td valign="top">
             <ul>
-                <li><sub><sup>
+                <li><sub>
                     meist systemabhängig (DB, Dateisystem, Netzwerk, andere Module, etc.)
-                </sup></sub></li>
-                <li><sub><sup>
+                </sub></li>
+                <li><sub>
                     helfen dabei die Zusammenarbeit von systemunabhängigen Komponenten
                     (z.B. Unit-Tests) in einer systemabhängigen Umbegung zu prüfen
-                </sup></sub></li>
-                <li><sub><sup>
+                </sub></li>
+                <li><sub>
                     sind kostspieliger als systemunabhängige Tests
-                </sup></sub></li>
+                </sub></li>
         </td>
         <td valign="top">
             <ul>
-                <li><sub><sup>
+                <li><sub>
                     Automatisierte Browsersimulation
-                </sup></sub></li>
-                <li><sub><sup>
+                </sub></li>
+                <li><sub>
                     Überprüfen von User-Aktionen
-                </sup></sub></li>
-                <li><sub><sup>
+                </sub></li>
+                <li><sub>
                     Einbeziehen von Umgebungseigenschaften (Ausführen von Javascript, etc.)
-                </sup></sub></li>
-                <li><sub><sup>
+                </sub></li>
+                <li><sub>
                     Durch Realisierung von User-Aktionen, Ausführung teilweise lang: Sparsames Einsetzen!
-                </sup></sub></li>
-                <li><sub><sup>
+                </sub></li>
+                <li><sub>
                     Für geschäftskritische Bereiche: Login, Warenkorb, Formulare, etc.
-                </sup></sub></li>
-                <li><sub><sup>
+                </sub></li>
+                <li><sub>
                     Sofern möglich: Auf Unit- oder Integration-Tests setzen
-                </sup></sub></li>
+                </sub></li>
             </ul>
         </td>
     </tr>
