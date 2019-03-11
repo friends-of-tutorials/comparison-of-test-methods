@@ -88,10 +88,10 @@ Oftmals ist es nicht notwendig (vor allem in der [Webentwicklung](https://de.wik
         </td>
         <td valign="top">
             <ul>
-                <li><sub>
+                <li><sup>
                     unabhängig vom System (DB, Dateisystem, Netzwerk, etc.) bzw. erfordern
                     keine Kenntniss vom System
-                </sub></li>
+                </sup></li>
                 <li><sub>
                     meist auf Funktionsebene
                 </sub></li>
