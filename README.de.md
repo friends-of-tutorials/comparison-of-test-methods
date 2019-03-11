@@ -71,10 +71,10 @@ Oftmals ist es nicht notwendig (vor allem in der [Webentwicklung](https://de.wik
             Kurzbeschreibung
         </td>
         <td valign="top">
-            <small>
+            <sub><sup>
                 Prüft kleine Code-Teile wie zum Beispiel individuelle Funktionen auf einen Erwartungswert
                 bei gegebenen Eingaben.
-            </small>
+            </sup></sub>
         </td>
         <td valign="top">
             Prüft Unit-Tests in Systemumgebungen bzw. in Abhängigkeiten auf dem auszuführendem Systems
