@@ -4,7 +4,7 @@
 
 ### 1.1 Testverfahren im Vergleich
 
-Es gibt unzählige Arten von Testverfahren. Viele machen generell ähnliche Dinge bzw. beschreiben faktisch die gleichen Testmethoden (z.B. Funktionentests, E2E-Tests, Browsertests, GUI-Tests, Akzeptanztest, Systemtests, etc.). Nachfolgend Testmethoden aus den [Softwaretests](https://de.wikipedia.org/wiki/Softwaretest), mit welchen man sich auseinandersetzen kann (natürlich nur ein "Auszug"):
+Es gibt unzählige Arten von Testverfahren. Viele Test sind in Ihrer Ausführung und im Testverhalten sehr ähnlich bzw. beschreiben faktisch die gleichen Testmethoden (z.B. Funktionentests, E2E-Tests, Browsertests, GUI-Tests, Akzeptanztest, Systemtests, etc.). Nachfolgend Testmethoden aus den [Softwaretests](https://de.wikipedia.org/wiki/Softwaretest), mit welchen man sich auseinandersetzen kann (natürlich nur ein "Auszug"):
 
 #### 1.1.1 [funktionale Tests](https://de.wikipedia.org/wiki/Funktionstest) (funktionale Anforderungen)
 
@@ -271,7 +271,7 @@ Todo
 
 ## 4. Funktionstests (Akzeptanztests) 
 
-Nachfolgend der Testbereicht, welcher die größte Schnittmenge zwischen Usern (Kunden) und Entwicklern abdeckt: den Akzeptanztests respektive den E2E-Tests. Akzeptanztest erhöhen das Vertrauen in der Verwendung der Software zwischen Usern (Kunden) und den Entwicklern.
+Nachfolgend der Testbereich, welcher die größte Schnittmenge zwischen Usern (Kunden) und Entwicklern bei der Testerstellung und der Testverwendung abdeckt: den Akzeptanztests respektive den E2E-Tests. Akzeptanztest erhöhen das Vertrauen in der Verwendung der Software zwischen Usern (Kunden) und den Entwicklern.
 
 ### 4.1 Einleitend
 
@@ -279,10 +279,10 @@ Todo..
 
 #### 4.1.1 Hilfreiche Hinweise
 
-* Akzeptanztest sparsam einsetzen, da diese bedingt durch die Simulation von User-Aktionen eine gewisse Performance vorraussetzen und dadurch eine gewisse Ausführungszeit benötigen
+* Akzeptanztest sparsam einsetzen, da diese bedingt durch die Simulation von User-Aktionen in der Ausführung sehr kostspielig sind und dadurch eine gewisse Ausführungszeit benötigen
 * Wenn möglich, dann eher detailierte Prüfungen durch Unit- und Integrationstests abdecken!
   * Lade Datensatz xy (Eingaben) und erwarte Inhalt yz
-* Nur die entscheidenden (geschäftskritische) Funktionen testen, z.B.:
+* Nur die entscheidenden (geschäftskritischen) Funktionen testen, z.B.:
   * Loginfunktion
   * Warenkorbfunktion
   * Bestellprozess
