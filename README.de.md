@@ -164,7 +164,7 @@ Oftmals ist es nicht notwendig (vor allem in der [Webentwicklung](https://de.wik
             Entwicklern
         </sub></td>
         <td valign="top"><sub>
-            Entwicklern, QA-Testern, Usern (Kunden), Administratoren
+            Entwicklern, QA-Testern, Usern (Kunden)
         </sub></td>
     </tr>
     <tr>
@@ -178,7 +178,7 @@ Oftmals ist es nicht notwendig (vor allem in der [Webentwicklung](https://de.wik
             Entwicklern
         </sub></td>
         <td valign="top"><sub>
-            Usern (Kunden)
+            Usern (Kunden), Administratoren
         </sub></td>
     </tr>
 </table>
