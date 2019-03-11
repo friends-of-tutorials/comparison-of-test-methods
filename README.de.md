@@ -186,6 +186,10 @@ Oftmals ist es nicht notwendig (vor allem in der [Webentwicklung](https://de.wik
 
 
 
+<br><br>
+
+
+
 ## 2. Unit-Tests (Komponententests)
 
 Todo..
@@ -222,6 +226,10 @@ Todo
 
 
 
+<br><br>
+
+
+
 ## 3. Integration-Tests
 
 Todo..
@@ -255,6 +263,10 @@ Todo..
 #### 3.3.1 Erster Punkt
 
 Todo
+
+
+
+<br><br>
 
 
 
@@ -420,9 +432,17 @@ Todo..
 
 
 
+<br><br>
+
+
+
 ## A. Weitere Anleitungen
 
 * Todo..
+
+
+
+<br><br>
 
 
 
@@ -435,9 +455,17 @@ Todo..
 
 
 
+<br><br>
+
+
+
 ## C. Tools
 
 * Todo..
+
+
+
+<br><br>
 
 
 
@@ -456,9 +484,17 @@ Todo..
 
 
 
+<br><br>
+
+
+
 ## E. Autoren
 
 * Björn Hempel <bjoern@hempel.li> - _Erste Arbeiten_ - [https://github.com/bjoern-hempel](https://github.com/bjoern-hempel)
+
+
+
+<br><br>
 
 
 
