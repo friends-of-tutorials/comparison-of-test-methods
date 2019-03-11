@@ -70,17 +70,17 @@ Oftmals ist es nicht notwendig (vor allem in der [Webentwicklung](https://de.wik
         <td valign="top">
             Kurzbeschreibung
         </td>
-        <td valign="top">
+        <td valign="top"><sub>
             Prüft kleine Code-Teile wie zum Beispiel individuelle Funktionen auf einen Erwartungswert
             bei gegebenen Eingaben.
-        </td>
-        <td valign="top">
+        </sub></td>
+        <td valign="top"><sub>
             Prüft Unit-Tests in Systemumgebungen bzw. in Abhängigkeiten auf dem auszuführendem Systems
             (Datenbank, Dateisystem, Netzwerk, anderen Unit-Tests, etc.).
-        </td>
-        <td valign="top">
+        </sub></td>
+        <td valign="top"><sub>
             Prüft, ob eine Software aus Sicht des Benutzers wie beabsichtigt funktioniert.
-        </td>
+        </sub></td>
     </tr>
     <tr>
         <td valign="top">
@@ -143,56 +143,43 @@ Oftmals ist es nicht notwendig (vor allem in der [Webentwicklung](https://de.wik
         <td valign="top">
             Entwicklungsebene
         </td>
-        <td valign="top">
+        <td valign="top"><sub>
             Auf Code-Ebene (Programmiersprachenabhängig)
-        </td>
-        <td valign="top">
+        </sub></td>
+        <td valign="top"><sub>
             In den meisten Fällen ebenfalls auf Code-Ebene (Programmiersprachenabhängig)
-        </td>
-        <td valign="top">
+        </sub></td>
+        <td valign="top"><sub>
             Auf "Bedienebene" (unabhängig von der Entwicklungsumgebung und Sprache)
-        </td>
+        </sub></td>
     </tr>
     <tr>
         <td valign="top">
             Geschrieben von
         </td>
-        <td valign="top">
+        <td valign="top"><sub>
             Entwicklern
-        </td>
-        <td valign="top">
+        </sub></td>
+        <td valign="top"><sub>
             Entwicklern
-        </td>
-        <td valign="top">
-            <ul>
-                <li>
-                    Entwicklern
-                </li>
-                <li>
-                    QA-Testern
-                </li>
-                <li>
-                    Usern (Kunden)
-                </li>
-                <li>
-                    Administratoren
-                </li>
-            </ul>
-        </td>
+        </sub></td>
+        <td valign="top"><sub>
+            Entwicklern, QA-Testern, Usern (Kunden), Administratoren
+        </sub></td>
     </tr>
     <tr>
         <td valign="top">
             Verwendet von
         </td>
-        <td valign="top">
+        <td valign="top"><sub>
             Entwicklern
-        </td>
-        <td valign="top">
+        </sub></td>
+        <td valign="top"><sub>
             Entwicklern
-        </td>
-        <td valign="top">
+        </sub></td>
+        <td valign="top"><sub>
             Usern (Kunden)
-        </td>
+        </sub></td>
     </tr>
 </table>
 
