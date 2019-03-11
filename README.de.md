@@ -12,7 +12,7 @@ Es gibt unzählige Arten von Testverfahren. Viele machen generell ähnliche Ding
 * [API Tests](https://en.wikipedia.org/wiki/API_testing) oder auch _API testing_
 * [Integrationstest](https://de.wikipedia.org/wiki/Integrationstest) oder auch _integration testing_
 * Interface Testing
-* [Modultests](https://de.wikipedia.org/wiki/Modultest) oder auch _unit testing_
+* [Modultests](https://de.wikipedia.org/wiki/Modultest), Komponententests oder auch _unit testing_
 * [Rauchtest](https://de.wikipedia.org/wiki/Smoke_testing) oder auch _smoke testing_
 * [Regression Testing](https://de.wikipedia.org/wiki/Regressionstest) oder auch _regression testing_
 * [Sanity testing](https://de.wikipedia.org/wiki/Sanity_Check)
@@ -57,7 +57,7 @@ Oftmals ist es nicht notwendig (vor allem in der [Webentwicklung](https://de.wik
     <tr>
         <th valign="top"></th>
         <th valign="top">
-            <a href="#user-content-2-unit-tests">Unit-Tests</a>
+            <a href="#user-content-2-unit-tests-komponententests">Unit-Tests (Komponententests)</a>
         </th>
         <th valign="top">
             <a href="#user-content-3-integration-tests">Integration-Tests</a>
@@ -185,7 +185,7 @@ Oftmals ist es nicht notwendig (vor allem in der [Webentwicklung](https://de.wik
 </table>
 
 
-## 2. Unit-Tests
+## 2. Unit-Tests (Komponententests)
 
 Todo..
 
