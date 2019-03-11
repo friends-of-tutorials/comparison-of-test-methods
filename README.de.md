@@ -185,13 +185,78 @@ Oftmals ist es nicht notwendig (vor allem in der [Webentwicklung](https://de.wik
 </table>
 
 
+
 ## 2. Unit-Tests (Komponententests)
 
 Todo..
 
+### 2.1 Einleitend
+
+Todo..
+
+#### 2.1.1 Hilfreiche Hinweise
+
+Todo..
+
+#### 2.1.2 Vorraussetzungen, Anforderungen
+
+* Kommandozeilenorientiert: automatische Tests vor dem Deployment (aus Administratorsicht)
+
+#### 2.1.3 Unit-Tests und deren Frameworks sind...
+
+* Todo..
+
+### 2.2 Übersicht
+
+#### 2.2.1 Unit Testing Frameworks
+
+* Todo..
+
+### 2.3 Best Practices
+
+Todo..
+
+#### 2.3.1 Erster Punkt
+
+Todo
+
+
+
 ## 3. Integration-Tests
 
 Todo..
+
+### 3.1 Einleitend
+
+Todo..
+
+#### 3.1.1 Hilfreiche Hinweise
+
+Todo..
+
+#### 3.1.2 Vorraussetzungen, Anforderungen
+
+* Kommandozeilenorientiert: automatische Tests vor dem Deployment (aus Administratorsicht)
+
+#### 3.1.3 Integrationstests und deren Frameworks sind...
+
+* Todo..
+
+### 3.2 Übersicht
+
+#### 3.2.1 Integration Testing Frameworks
+
+* Todo..
+
+### 3.3 Best Practices
+
+Todo..
+
+#### 3.3.1 Erster Punkt
+
+Todo
+
+
 
 ## 4. Funktionstests (Akzeptanztests) 
 
@@ -201,7 +266,7 @@ Nachfolgend der Testbereicht, welcher die größte Schnittmenge zwischen Usern (
 
 Todo..
 
-#### 4.1.1 Wichtig!
+#### 4.1.1 Hilfreiche Hinweise
 
 * Akzeptanztest sparsam einsetzen, da diese bedingt durch die Simulation von User-Aktionen eine gewisse Performance vorraussetzen und dadurch eine gewisse Ausführungszeit benötigen
 * Wenn möglich, dann eher detailierte Prüfungen durch Unit- und Integrationstests abdecken!
@@ -353,9 +418,13 @@ Todo..
 
 Todo..
 
+
+
 ## A. Weitere Anleitungen
 
 * Todo..
+
+
 
 ## B. Quellen
 
@@ -364,9 +433,13 @@ Todo..
 * [Functional Testing Vs Non-Functional Testing](https://www.softwaretestingclass.com/functional-testing-vs-non-functional-testing)
 * [Unit tests vs Functional tests](https://stackoverflow.com/questions/2741832/unit-tests-vs-functional-tests)
 
+
+
 ## C. Tools
 
 * Todo..
+
+
 
 ## D. Fußnoten
 
@@ -381,9 +454,13 @@ Todo..
     </tr>
 </table>
 
+
+
 ## E. Autoren
 
 * Björn Hempel <bjoern@hempel.li> - _Erste Arbeiten_ - [https://github.com/bjoern-hempel](https://github.com/bjoern-hempel)
+
+
 
 ## F. Lizenz
 
