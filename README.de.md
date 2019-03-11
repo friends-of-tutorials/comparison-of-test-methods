@@ -88,19 +88,19 @@ Oftmals ist es nicht notwendig (vor allem in der [Webentwicklung](https://de.wik
         </td>
         <td valign="top">
             <ul>
-                <li><sub><sup>
+                <li><sub>
                     unabhängig vom System (DB, Dateisystem, Netzwerk, etc.) bzw. erfordern
                     keine Kenntniss vom System
-                </sup></sub></li>
-                <li><sub><sup>
+                </sub></li>
+                <li><sub>
                     meist auf Funktionsebene
-                </sup></sub></li>
-                <li><sub><sup>
+                </sub></li>
+                <li><sub>
                     Definition Eingang und erwarteter Ausgang
-                </sup></sub></li>
-                <li><sub><sup>
+                </sub></li>
+                <li><sub>
                     Verringern die notwendige Anzahl an Akzeptanztests
-                </sup></sub></li>
+                </sub></li>
             </ul>
         </td>
         <td valign="top">
