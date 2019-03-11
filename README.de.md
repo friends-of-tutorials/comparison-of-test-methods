@@ -172,13 +172,13 @@ Oftmals ist es nicht notwendig (vor allem in der [Webentwicklung](https://de.wik
             Verwendet von
         </td>
         <td valign="top"><sub>
-            Entwicklern
+            Entwicklern, Administratoren (Deployment)
         </sub></td>
         <td valign="top"><sub>
-            Entwicklern
+            Entwicklern, Administratoren (Deployment)
         </sub></td>
         <td valign="top"><sub>
-            Usern (Kunden), Administratoren
+            Usern (Kunden), Administratoren (Deployment)
         </sub></td>
     </tr>
 </table>
