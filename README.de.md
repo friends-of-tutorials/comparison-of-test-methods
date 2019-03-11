@@ -477,7 +477,7 @@ Todo..
             <a id="user-content-footnote-1"><sup>1</sup></a>
         </td>
         <td>
-            Der Akzeptanztest meist der Test, welchen man umgangssprächlich mit _Functional Testing_ meint
+            Der Akzeptanztest ist meist der Test, welchen man umgangssprächlich mit _Functional Testing_ meint
         </td>
     </tr>
 </table>
