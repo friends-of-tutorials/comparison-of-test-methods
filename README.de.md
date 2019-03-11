@@ -55,7 +55,7 @@ Oftmals ist es nicht notwendig (vor allem in der [Webentwicklung](https://de.wik
 
 <table>
     <tr>
-        <th valign="top"></th>
+        <th valign="top"><sub></sub></th>
         <th valign="top">
             <a href="#user-content-2-unit-tests-komponententests">Unit-Tests (Komponententests)</a>
         </th>
@@ -67,9 +67,9 @@ Oftmals ist es nicht notwendig (vor allem in der [Webentwicklung](https://de.wik
         </th>
     </tr>
     <tr>
-        <td valign="top">
-            Kurzbe-<br />schreibung
-        </td>
+        <td valign="top"><sub>
+            <b>Kurzbe-<br />schreibung</b>
+        </sub></td>
         <td valign="top"><sub>
             Prüft kleine Code-Teile wie zum Beispiel individuelle Funktionen auf einen Erwartungswert
             bei gegebenen Eingaben.
@@ -83,9 +83,9 @@ Oftmals ist es nicht notwendig (vor allem in der [Webentwicklung](https://de.wik
         </sub></td>
     </tr>
     <tr>
-        <td valign="top">
-            Eigen-<br />schaften
-        </td>
+        <td valign="top"><sub>
+            <b>Eigen-<br />schaften</b>
+        </sub></td>
         <td valign="top">
             <ul>
                 <li><sub>
@@ -140,9 +140,9 @@ Oftmals ist es nicht notwendig (vor allem in der [Webentwicklung](https://de.wik
         </td>
     </tr>
     <tr>
-        <td valign="top">
-            Entwicklungs-<br />ebene
-        </td>
+        <td valign="top"><sub>
+            <b>Entwicklungs-<br />ebene</b>
+        </sub></td>
         <td valign="top"><sub>
             Auf Code-Ebene (Programmiersprachenabhängig)
         </sub></td>
@@ -154,9 +154,9 @@ Oftmals ist es nicht notwendig (vor allem in der [Webentwicklung](https://de.wik
         </sub></td>
     </tr>
     <tr>
-        <td valign="top">
-            Geschrieben von
-        </td>
+        <td valign="top"><sub>
+            <b>Geschrieben von</b>
+        </sub></td>
         <td valign="top"><sub>
             Entwicklern
         </sub></td>
@@ -168,9 +168,9 @@ Oftmals ist es nicht notwendig (vor allem in der [Webentwicklung](https://de.wik
         </sub></td>
     </tr>
     <tr>
-        <td valign="top">
-            Verwendet von
-        </td>
+        <td valign="top"><sub>
+            <b>Verwendet von</b>
+        </sub></td>
         <td valign="top"><sub>
             Entwicklern, Administratoren (Deployment)
         </sub></td>
