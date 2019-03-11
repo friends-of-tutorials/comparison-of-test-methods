@@ -71,10 +71,8 @@ Oftmals ist es nicht notwendig (vor allem in der [Webentwicklung](https://de.wik
             Kurzbeschreibung
         </td>
         <td valign="top">
-            <sub><sup>
-                Prüft kleine Code-Teile wie zum Beispiel individuelle Funktionen auf einen Erwartungswert
-                bei gegebenen Eingaben.
-            </sup></sub>
+            Prüft kleine Code-Teile wie zum Beispiel individuelle Funktionen auf einen Erwartungswert
+            bei gegebenen Eingaben.
         </td>
         <td valign="top">
             Prüft Unit-Tests in Systemumgebungen bzw. in Abhängigkeiten auf dem auszuführendem Systems
@@ -90,19 +88,19 @@ Oftmals ist es nicht notwendig (vor allem in der [Webentwicklung](https://de.wik
         </td>
         <td valign="top">
             <ul>
-                <li>
+                <li><sub><sup>
                     unabhängig vom System (DB, Dateisystem, Netzwerk, etc.) bzw. erfordern
                     keine Kenntniss vom System
-                </li>
-                <li>
+                </sup></sub></li>
+                <li><sub><sup>
                     meist auf Funktionsebene
-                </li>
-                <li>
+                </sup></sub></li>
+                <li><sub><sup>
                     Definition Eingang und erwarteter Ausgang
-                </li>
-                <li>
+                </sup></sub></li>
+                <li><sub><sup>
                     Verringern die notwendige Anzahl an Akzeptanztests
-                </li>
+                </sup></sub></li>
             </ul>
         </td>
         <td valign="top">
