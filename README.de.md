@@ -68,7 +68,7 @@ Oftmals ist es nicht notwendig (vor allem in der [Webentwicklung](https://de.wik
     </tr>
     <tr>
         <td valign="top">
-            Kurzbeschreibung
+            Kurzbe-<br />schreibung
         </td>
         <td valign="top"><sub>
             Prüft kleine Code-Teile wie zum Beispiel individuelle Funktionen auf einen Erwartungswert
@@ -84,7 +84,7 @@ Oftmals ist es nicht notwendig (vor allem in der [Webentwicklung](https://de.wik
     </tr>
     <tr>
         <td valign="top">
-            Eigenschaften
+            Eigen-<br />schaften
         </td>
         <td valign="top">
             <ul>
@@ -141,7 +141,7 @@ Oftmals ist es nicht notwendig (vor allem in der [Webentwicklung](https://de.wik
     </tr>
     <tr>
         <td valign="top">
-            Entwicklungsebene
+            Entwicklungs-<br />ebene
         </td>
         <td valign="top"><sub>
             Auf Code-Ebene (Programmiersprachenabhängig)
