@@ -113,7 +113,7 @@ Oftmals ist es nicht notwendig (vor allem in der [Webentwicklung](https://de.wik
                     (z.B. Unit-Tests) in einer systemabhängigen Umbegung zu prüfen
                 </sub></li>
                 <li><sub>
-                    sind kostspieliger als systemunabhängige Tests
+                    sind kostspieligerin der Ausführung als systemunabhängige Tests
                 </sub></li>
         </td>
         <td valign="top">
@@ -128,7 +128,7 @@ Oftmals ist es nicht notwendig (vor allem in der [Webentwicklung](https://de.wik
                     Einbeziehen von Umgebungseigenschaften (Ausführen von Javascript, etc.)
                 </sub></li>
                 <li><sub>
-                    Durch Realisierung von User-Aktionen, Ausführung teilweise lang: Sparsames Einsetzen!
+                    Durch Realisierung von User-Aktionen, teilweise sehr kostspielig in der Ausführung: Sparsames Einsetzen!
                 </sub></li>
                 <li><sub>
                     Für geschäftskritische Bereiche: Login, Warenkorb, Formulare, etc.
