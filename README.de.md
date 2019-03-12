@@ -255,6 +255,12 @@ Die Benennung der Tests sollte die Absicht des Tests explizit ausdrücken. Folge
 * die Bedingung unter der getestet wird
 * erwartete Verhalten
 
+Beispiel:
+
+* `getDateFormated_shortTerm_returnsTextInSeconds`
+* `getDateFormated_mediumTerm_returnsTextInHours`
+* `getDateFormated_longTerm_returnsTextInDays`
+
 #### 2.3.2 Anordnung der Tests
 
 Todo..
@@ -265,7 +271,7 @@ Todo..
 
 #### 2.3.4 Einfachkeit der Tests (2/2)
 
-Tests sollten so gut es geht keine Logik enthalten. Zur Erinnerung: Ein Test enthält einen Eingabewert und den zu erwartenden Ausgabewert. Logische Bedingungen (`if`, `while`, `for`, `switch`, etc. sollten vermieden werden).
+Tests sollten so gut es geht keine Logik enthalten. Zur Erinnerung: Ein Test enthält einen Eingabewert und den zu erwartenden Ausgabewert. Logische Bedingungen (`if`, `while`, `for`, `switch`, etc.) sollten vermieden werden.
 
 #### 2.3.5 Vermeiden "magischer" Zeichenfolgen
 
