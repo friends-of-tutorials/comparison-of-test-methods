@@ -253,9 +253,9 @@ Nachfolgend ein paar Best Practices zum Thema Komponententests.
 
 Die Benennung der Tests sollte die Absicht des Tests explizit ausdrücken. Folgende drei Teile haben sich als bewährt erachtet:
 
-# der Name der zu testenden Methode
-# die Bedingung unter der getestet wird
-# erwartete Verhalten
+1. der Name der zu testenden Methode
+2. die Bedingung unter der getestet wird
+3. erwartete Verhalten
 
 Beispiel:
 
@@ -267,9 +267,9 @@ Beispiel:
 
 Das Wichtigste beim Aufbau der Tests: Lesbarkeit! Vermeide Kurzschreibweisen und "Einzeiler". Folgender Aufbau eines einzelnen Tests hat sich als bewährt erachtet:
 
-# Vorkehrung (Initialisierung von Objekten, etc.) (_Arrange_)
-# Ausführung der Aktion am Objekt, Element, etc. (_Act_)
-# Behauptung überprüfen (_Assert_)
+1. Vorkehrung (Initialisierung von Objekten, etc.) (_Arrange_)
+2. Ausführung der Aktion am Objekt, Element, etc. (_Act_)
+3. Behauptung überprüfen (_Assert_)
 
 Beispiel:
 
