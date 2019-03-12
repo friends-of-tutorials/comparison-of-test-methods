@@ -291,7 +291,7 @@ function getDateFormated_shortTerm_returnsTextInSeconds()
 
 #### 2.3.3 Einfachheit der Tests (1/2)
 
-Todo..
+Vermeide Dinge, die vom Test ablenken oder die Tests "überladen". Mehrfache Tests ähnlicher/gleicher Dinge sind zu vermeiden.
 
 #### 2.3.4 Einfachkeit der Tests (2/2)
 
@@ -299,11 +299,11 @@ Tests sollten so gut es geht keine Logik enthalten. Zur Erinnerung: Ein Test ent
 
 #### 2.3.5 Vermeiden "magischer" Zeichenfolgen
 
-Todo..
+Der Test soll lesbar sein. Zu testende Werte werden in Variablen ausgelagert, um ein Ablenken auf spezielle Werte zu vermeiden.
 
 #### 2.3.6 Nur eine Assert-Anweisung pro Test
 
-Todo..
+Mehrfache assert-Werte sind oftmals in vielen Test-Frameworks möglich. Ein Test sollte nur einen zu überprüfenden Wert enthalten.
 
 #### 2.3.7 Teste nur öffentliche Methoden
 
@@ -311,7 +311,7 @@ Todo..
 
 #### 2.3.8 Vollständige Kontrolle von Ereignissen
 
-Todo..
+Vermeide Funktionen wie `now` in Tests und verwende stattdessen gegebene kontrollierte Eingabewerte.
 
 <br><br>
 
