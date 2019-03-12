@@ -214,7 +214,9 @@ Komponententests sind Softwaretestverfahren, bei dem einzelne Code-Teile auf ihr
 
 #### 2.1.3 Unit-Tests und deren Frameworks sind...
 
-* Todo..
+* systemunabhängig (DB, Dateisystem, Netzwerk, etc.)
+* abhängig von der Programmiersprache seines Projektes
+* sehr schnell
 
 ### 2.2 Übersicht
 
