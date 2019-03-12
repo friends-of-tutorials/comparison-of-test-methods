@@ -255,31 +255,31 @@ Die Benennung der Tests sollte die Absicht des Tests explizit ausdrücken. Folge
 * die Bedingung unter der getestet wird
 * erwartete Verhalten
 
-### 2.3.2 Anordnung der Tests
+#### 2.3.2 Anordnung der Tests
 
 Todo..
 
-### 2.3.3 Einfachheit der Tests (1/2)
+#### 2.3.3 Einfachheit der Tests (1/2)
 
 Todo..
 
-### 2.3.4 Einfachkeit der Tests (2/2)
+#### 2.3.4 Einfachkeit der Tests (2/2)
 
 Tests sollten so gut es geht keine Logik enthalten. Zur Erinnerung: Ein Test enthält einen Eingabewert und den zu erwartenden Ausgabewert. Logische Bedingungen (`if`, `while`, `for`, `switch`, etc. sollten vermieden werden).
 
-### 2.3.5 Vermeiden "magischer" Zeichenfolgen
+#### 2.3.5 Vermeiden "magischer" Zeichenfolgen
 
 Todo..
 
-### 2.3.6 Nur eine Assert-Anweisung pro Test
+#### 2.3.6 Nur eine Assert-Anweisung pro Test
 
 Todo..
 
-### 2.3.7 Teste nur öffentliche Methoden
+#### 2.3.7 Teste nur öffentliche Methoden
 
 Todo..
 
-### 2.3.8 Vollständige Kontrolle von Ereignissen
+#### 2.3.8 Vollständige Kontrolle von Ereignissen
 
 Todo..
 
