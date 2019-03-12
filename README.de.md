@@ -223,7 +223,7 @@ Komponententests sind Softwaretestverfahren, bei dem einzelne Code-Teile auf ihr
 * ergebnisgleich (*Wiederholbarkeit*)
   * das Ausführen eines Komponententests sollte immer zu den gleichen Ergebnissen führen
 * "hinterfragend" (_Verhältnismäßigkeit_)
-  * benötigt der Testaufbau wesentlich mehr Zeit in Anspruch nimmt als der zu testende Code-Teil, ist dieser Code-Teil wahrscheinlich zu komplex und bedarf einer Überarbeitung, welche besser getestet werden kann
+  * nimmt der Testaufbau wesentlich mehr Zeit in Anspruch als der zu testende Code-Teil, ist dieser Code-Teil wahrscheinlich zu komplex und bedarf einer Überarbeitung, welche besser getestet werden kann (Entkopplung)
 * abhängig von der Programmiersprache seines Projektes
 
 ### 2.2 Übersicht
