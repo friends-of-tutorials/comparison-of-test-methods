@@ -263,9 +263,31 @@ Beispiel:
 * `getDateFormated_mediumTerm_returnsTextInHours`
 * `getDateFormated_longTerm_returnsTextInDays`
 
-#### 2.3.2 Anordnung der Tests
+#### 2.3.2 Testaufbau
 
-Todo..
+Das Wichtigste beim Aufbau der Tests: Lesbarkeit! Vermeide Kurzschreibweisen und "Einzeiler". Folgender Aufbau eines einzelnen Tests hat sich als bewährt erachtet:
+
+* Vorkehrung (Initialisierung von Objekten, etc.) (_Arrange_)
+* Ausführung der Aktion am Objekt, Element, etc. (_Act_)
+* Behauptung überprüfen (_Assert_)
+
+Beispiel:
+
+```javascript
+function getDateFormated_shortTerm_returnsTextInSeconds()
+{
+    /* Arrange */
+    var assert = require('assert');
+    var formatter = new Formatter();
+    var dateTextExpected = '20 seconds before';
+    
+    /* Act */
+    var dateTextFormated = formatter.getText([2019, 03, 12, 10, 00, 00], [2019, 03, 12, 10, 00, 20]);
+    
+    /* Assert */
+    assert.equal(dateTextFormated, dateTextExpected);
+}
+```
 
 #### 2.3.3 Einfachheit der Tests (1/2)
 
