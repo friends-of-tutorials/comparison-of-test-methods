@@ -213,11 +213,18 @@ Komponententests sind Softwaretestverfahren, bei dem einzelne Code-Teile auf ihr
   * vor der Versionierung seiner Änderungen
   * vor Deployments
 
-#### 2.1.3 Unit-Tests und deren Frameworks sind...
+#### 2.1.3 Unit-Tests mit ihren Testing-Frameworks sind...
 
-* systemunabhängig (DB, Dateisystem, Netzwerk, etc.)
+* systemunabhängig (*Unabhängigkeit*)
+  * unabhängig von externen Faktoren wie DB, Dateisystem, Netzwerk, etc.
+  * können isoliert ausgeführt werden
+* sehr schnell in der Ausführung (*Schnelligkeit*)
+  * enthalten je mach Projektgröße meist mehrere Tausende Tests
+* ergebnisgleich (*Wiederholbarkeit*)
+  * das Ausführen eines Komponententests sollte immer zu den gleichen Ergebnissen führen
+* "hinterfragend" (_Verhältnismäßigkeit_)
+  * benötigt der Testaufbau wesentlich mehr Zeit in Anspruch nimmt als der zu testende Code-Teil, ist dieser Code-Teil wahrscheinlich zu komplex und bedarf einer Überarbeitung, welche besser getestet werden kann
 * abhängig von der Programmiersprache seines Projektes
-* sehr schnell
 
 ### 2.2 Übersicht
 
