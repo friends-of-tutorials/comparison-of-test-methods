@@ -197,7 +197,10 @@ Komponententests sind Softwaretestverfahren, bei dem einzelne Code-Teile auf ihr
 
 #### 2.1.1 Hilfreiche Hinweise
 
-Todo..
+* Ein einzelnes Modul (Code-Teil) enthält im optimalen Fall nur eine bestimmte Aufgabe, auf welche der Unit-Test angesetzt wird
+* Notfalls sollte ein Code-Bereich mit mehreren Aufgaben in weitere Code-Teile unterteilt werden
+* Module sind immer unabhängig von der auszuführenden Umgebung (DB, Dateisystem, Netzwerk, etc.) und können somit problemlos auf jedem System erfolgreich durchgeführt werden
+* Komponententests sollten anderen kostspieligeren Tests vorgezogen werden, da sie meist nur eine Zeit im Millisekunden-Bereich benötigen
 
 #### 2.1.2 Vorraussetzungen, Anforderungen
 
