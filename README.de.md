@@ -465,10 +465,14 @@ Todo..
 
 ## B. Quellen
 
-* [Best practices - Cypress](https://docs.cypress.io/guides/references/best-practices.html)
-* [A glimpse into the test jungle (German)](https://entwickler.de/online/durchblick-im-test-dschungel-unterschiede-zwischen-unit-integration-und-funktionstesting-149903.html)
-* [Functional Testing Vs Non-Functional Testing](https://www.softwaretestingclass.com/functional-testing-vs-non-functional-testing)
-* [Unit tests vs Functional tests](https://stackoverflow.com/questions/2741832/unit-tests-vs-functional-tests)
+* Allgemein
+  * [A glimpse into the test jungle (German)](https://entwickler.de/online/durchblick-im-test-dschungel-unterschiede-zwischen-unit-integration-und-funktionstesting-149903.html)
+  * [Functional Testing Vs Non-Functional Testing](https://www.softwaretestingclass.com/functional-testing-vs-non-functional-testing)
+  * [Unit tests vs Functional tests](https://stackoverflow.com/questions/2741832/unit-tests-vs-functional-tests)
+* Komponententests
+  * [Bewährte Methoden für Komponententests](https://docs.microsoft.com/de-de/dotnet/core/testing/unit-testing-best-practices)
+* Cypress
+  * [Best practices - Cypress](https://docs.cypress.io/guides/references/best-practices.html)
 
 
 
