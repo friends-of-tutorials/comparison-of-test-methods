@@ -191,11 +191,9 @@ Oftmals ist es nicht notwendig (vor allem in der [Webentwicklung](https://de.wik
 
 ## 2. Unit-Tests (Komponententests)
 
-Todo..
+Komponententests sind Softwaretestverfahren, bei dem einzelne Code-Teile auf ihre Einsatzfähigkeit getestet werden. Dabei werden meist bei gegebenen Eingabewerten bestimmte Ausgabewerte erwartet.
 
 ### 2.1 Einleitend
-
-Todo..
 
 #### 2.1.1 Hilfreiche Hinweise
 
@@ -274,8 +272,6 @@ Todo
 Nachfolgend der Testbereich, welcher die größte Schnittmenge zwischen Usern (Kunden) und Entwicklern bei der Testerstellung und der Testverwendung abdeckt: den Akzeptanztests respektive den E2E-Tests. Akzeptanztest erhöhen das Vertrauen in der Verwendung der Software zwischen Usern (Kunden) und den Entwicklern.
 
 ### 4.1 Einleitend
-
-Todo..
 
 #### 4.1.1 Hilfreiche Hinweise
 
