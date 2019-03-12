@@ -222,7 +222,18 @@ Komponententests sind Softwaretestverfahren, bei dem einzelne Code-Teile auf ihr
 
 #### 2.2.1 Unit Testing Frameworks
 
-* Todo..
+* [PHPUnit](https://phpunit.de)
+  * benötigt Kenntnisse in der Programmiersprache "PHP"
+  * ist ein Framework für [PHP](https://de.wikipedia.org/wiki/PHP)-Entwickler
+  * hat eine sehr schlanke Testing-Struktur
+    * meist ein Order mit den verschiedenen "Test-Gruppen": https://github.com/bjoern-hempel/php-web-crawler/tree/master/tests
+  * z.B. über Composer zu installieren: `user$ composer require --dev phpunit/phpunit ^8`
+* [Mocha](https://mochajs.org)
+  * benötigt Kenntnisse in der Programmiersprache "Javascript"
+  * ist ein Framework für [Javascript](https://de.wikipedia.org/wiki/JavaScript)-Entwickler
+  * hat eine sehr schlanke Testing-Struktur
+  * einfach zu installieren: `user$ npm install mocha`
+* etc.
 
 ### 2.3 Best Practices
 
