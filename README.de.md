@@ -201,10 +201,16 @@ Komponententests sind Softwaretestverfahren, bei dem einzelne Code-Teile auf ihr
 * Notfalls sollte ein Code-Bereich mit mehreren Aufgaben in weitere Code-Teile unterteilt werden
 * Module sind immer unabhängig von der auszuführenden Umgebung (DB, Dateisystem, Netzwerk, etc.) und können somit problemlos auf jedem System erfolgreich durchgeführt werden
 * Komponententests sollten anderen kostspieligeren Tests vorgezogen werden, da sie meist nur eine Zeit im Millisekunden-Bereich benötigen
+* Komponententests erhöhen das Vertrauen von Änderungen am eigentlichen Quellcode eines Projektes (Code-Refactoring), da am Ende geprüft werden kann, dass alles wie zuvor funktioniert
+* Komponenten-Tests werden für gewöhnlich in der gleichen Programmiersprache wie das zu testende Projekt geschrieben
 
 #### 2.1.2 Vorraussetzungen, Anforderungen
 
 * Kommandozeilenorientiert: automatische Tests vor dem Deployment (aus Administratorsicht)
+* Schnelle und unkomplizierte Durchführung der Tests
+  * sofort nach Änderungen
+  * vor der Versionierung seiner Änderungen
+  * vor Deployments
 
 #### 2.1.3 Unit-Tests und deren Frameworks sind...
 
