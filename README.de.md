@@ -267,7 +267,7 @@ Beispiel:
 
 Das Wichtigste beim Aufbau der Tests: Lesbarkeit! Vermeide Kurzschreibweisen und "Einzeiler". Folgender Aufbau eines einzelnen Tests hat sich als bewährt erachtet:
 
-1. Vorkehrung (Initialisierung von Objekten, etc.) (_Arrange_)
+1. Vorkehrung (z.B. Initialisierung von Objekten, etc.) (_Arrange_)
 2. Ausführung der Aktion am Objekt, Element, etc. (_Act_)
 3. Behauptung überprüfen (_Assert_)
 
@@ -317,21 +317,59 @@ describe('function concatWithSpace() {}', function() {
 
 Tests sollten so gut es geht keine Logik enthalten. Zur Erinnerung: Ein Test enthält einen Eingabewert und den zu erwartenden Ausgabewert. Logische Bedingungen (`if`, `while`, `for`, `switch`, etc.) sollten vermieden werden.
 
-#### 2.3.5 Vermeiden "magischer" Zeichenfolgen
+#### 2.3.5 Nur eine Assert-Anweisung pro Test
+
+Mehrfache assert-Werte sind oftmals in vielen Test-Frameworks möglich. Ein Test sollte nur einen zu überprüfenden Wert enthalten (eine assert Anweisung). (siehe auch Einfachkeit der Tests 2/2)
+
+#### 2.3.6 Vermeiden "magischer" Zeichenfolgen
 
 Der Test soll lesbar sein. Zu testende Werte werden in Variablen ausgelagert, um ein Ablenken auf spezielle Werte zu vermeiden.
 
-#### 2.3.6 Nur eine Assert-Anweisung pro Test
+Beispiel:
 
-Mehrfache assert-Werte sind oftmals in vielen Test-Frameworks möglich. Ein Test sollte nur einen zu überprüfenden Wert enthalten.
+```javascript
+describe('function maxValue() {}', function() {
+  describe('Test the maximum value.', function() {
+    it('Should return the maximum value', function() {
 
-#### 2.3.7 Teste nur öffentliche Methoden
+      /* Arrange */
+      var valueExpected = 65535;
 
-Todo..
+      /* Act */
+      var valueTested = maxValue(65535);
 
-#### 2.3.8 Vollständige Kontrolle von Ereignissen
+      /* Assert */
+      assert.equal(valueTested, valueExpected);
+    });
+  });
+});
+```
+
+```javascript
+describe('function maxValue() {}', function() {
+  describe('Test the maximum value.', function() {
+    it('Should return the maximum value', function() {
+
+      /* Arrange */
+      var valueExpected = 65535;
+
+      /* Act */
+      var valueTested = maxValue(65535);
+
+      /* Assert */
+      assert.equal(valueTested, valueExpected);
+    });
+  });
+});
+```
+
+#### 2.3.7 Vollständige Kontrolle von Ereignissen
 
 Vermeide Funktionen wie `now` in Tests und verwende stattdessen gegebene kontrollierte Eingabewerte.
+
+#### 2.3.8 Teste nur öffentliche Methoden
+
+Todo..
 
 <br><br>
 
