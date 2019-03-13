@@ -274,12 +274,11 @@ Das Wichtigste beim Aufbau der Tests: Lesbarkeit! Vermeide Kurzschreibweisen und
 Beispiel:
 
 ```javascript
-function getDateFormated_shortTerm_returnsTextInSeconds()
-{
+function FormatterGetText_shortTerm_returnsTextInSeconds() {
+
     /* Arrange */
-    var assert = require('assert');
     var formatter = new Formatter();
-    var dateTextExpected = '20 seconds before';
+    var dateTextExpected = '20 seconds ago';
     
     /* Act */
     var dateTextFormated = formatter.getText([2019, 03, 12, 10, 00, 00], [2019, 03, 12, 10, 00, 20]);
@@ -289,9 +288,30 @@ function getDateFormated_shortTerm_returnsTextInSeconds()
 }
 ```
 
+```javascript
+describe('function concatWithSpace() {}', function() {
+  describe('Two simple strings.', function() {
+    it('Should return the concated string with a space between.', function() {
+
+      /* Arrange */
+      var stringExpected = 'Hello world';
+      var stringWord1 = 'Hello';
+      var stringWord2 = 'world';
+
+      /* Act */
+      var stringResult = concatWithSpace(stringWord1, stringWord2);
+
+      /* Assert */
+      assert.equal(stringResult, stringExpected);
+    });
+  });
+});
+```
+
 #### 2.3.3 Einfachheit der Tests (1/2)
 
-Vermeide Dinge, die vom Test ablenken oder die Tests "überladen". Mehrfache Tests ähnlicher/gleicher Dinge sind zu vermeiden.
+* Vermeide Dinge, die vom Test ablenken oder die Tests "überladen"
+* Vermeide Unnötiges und Wiederholungen (z.B. mehrfache Tests ähnlicher/gleicher Dinge)
 
 #### 2.3.4 Einfachkeit der Tests (2/2)
 
